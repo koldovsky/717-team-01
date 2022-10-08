@@ -1,6 +1,32 @@
-.blog__name {
-	font-family: "Playfair Display",
+.blog-wrapper {
+	--header-font: "Playfair Display",
 		serif;
+	--text-font: Roboto,
+		serif;
+	--text-color: #505155;
+	--article-header-color: #232428;
+	--line-color: #EE2E14;
+	padding: 107px 0 15px;
+}
+
+.center-wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 60px;
+}
+
+.blog {
+	padding: 0 30px;
+	text-align: center;
+}
+
+.blog__line-wrapper {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.blog__name {
+	font-family: var(--header-font);
 	font-size: 12px;
 	text-transform: uppercase;
 }
@@ -9,22 +35,38 @@
 .blog__title,
 .blog__description,
 .stories__title {
-	font-family: Roboto, serif;
+	font-family: var(--text-font);
+}
+
+.blog__name,
+.blog__title,
+.blog__description {
+	color: var(--text-color);
 }
 
 .blog__line {
-	color: #EE2E14;
+	color: var(--line-color);
 	font-size: 12px;
 }
 
 .blog__title {
 	font-size: 39px;
+	margin-bottom: 40px;
 }
 
 .blog__description {
 	font-size: 19px;
+	margin-bottom: 40px;
+	padding: 0 50px;
+}
+
+.stories {
+	border: 1px solid rgba(0, 0, 0, 10%);
+	text-align: center;
+	padding: 200px 0;
 }
 
 .stories__title {
 	font-size: 24px;
+	color: var(--article-header-color);
 }
