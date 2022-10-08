@@ -1,0 +1,30 @@
+.footer {
+	background-color: #000;
+}
+
+.footer__contacts-name,
+.footer__contacts-link,
+.footer__information-link,
+.footer__social-copyright,
+.footer__social-rights {
+	font-family: Roboto, serif;
+}
+
+.footer__contacts-name {
+	font-size: 23px;
+}
+
+.footer__contacts-link {
+	font-size: 14px;
+}
+
+.footer__information-link {
+	font-size: 17px;
+}
+
+.footer__social-copyright,
+.footer__social-rights {
+	font-size: 12px;
+	font-weight: 700;
+	color: #fff;
+}
