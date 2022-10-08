@@ -1,0 +1,30 @@
+.blog__name {
+	font-family: "Playfair Display",
+		serif;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.blog__line,
+.blog__title,
+.blog__description,
+.stories__title {
+	font-family: Roboto, serif;
+}
+
+.blog__line {
+	color: #EE2E14;
+	font-size: 12px;
+}
+
+.blog__title {
+	font-size: 39px;
+}
+
+.blog__description {
+	font-size: 19px;
+}
+
+.stories__title {
+	font-size: 24px;
+}
