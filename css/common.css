@@ -7,6 +7,20 @@
 	box-sizing: border-box;
 }
 
+:root {
+    font-family: 'Roboto', sans-serif;
+	--text-light-color: #fff;
+	--text-color-1: rgba(255,255,255,0.75);
+	--text-color-2: #a9a9a9;
+	--text-color-3: #707070;
+	--main-text-color: #505155;
+	--text-bold-color: #14a9ee;
+	--block-name-color: #6f7380;
+	--block-name-color2: rgba(255,255,255,0.6);
+	--color-for-signs: rgb(238,46,20);
+	--background-color: #232428;
+}
+
 img {
 	max-width: 100%;
 	height: auto;
