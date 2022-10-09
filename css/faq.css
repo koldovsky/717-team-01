@@ -1,45 +1,39 @@
-.faq {
-    background-color:rgb(35,36,40)
-    width: 1900px;
-    padding-top: 100px;
-    padding-left: 200px;
-}
 .faq__block__text {
-color: rgba(255,255,255);
-font-size: inherit;
+    color: rgba(255,255,255);
+    font-size: inherit;
 }
 .faq__block__span {
-color: red;
+    color: red;
 }
 .faq__block__name {
-color: white;
-font-family: "Plafair Display" serif;
-font-size: 39px;
-font: serif;
-padding-top: 20px;
+    color: white;
+    font-family: "Plafair Display" serif;
+    font-size: 39px;
+    font: serif;
+    padding-top: 20px;
 }
 .faq__block__name__span {
-color: #505155;
+    color: #505155;
 }
 .faq__text {
-color: rgba(255,255,255);
-font-size: 19px;
-font: Roboto, sans-serif;
-width: 400px;
+    color: rgba(255,255,255);
+    font-size: 19px;
+    font: Roboto, sans-serif;
+    width: 400px;
 }
 .questions {
-color: rgba(255,255,255);
-font-size: 17px;
-font: Roboto, sans-serif;
-width: 400px;
+    color: rgba(255,255,255);
+    font-size: 17px;
+    font: Roboto, sans-serif;
+    width: 400px;
 }
 .answers {
-color: rgb(169,169,169);
-font-size: 14px;
-font: Roboto, sans-serif;
-width: 400px;
+    color: rgb(169,169,169);
+    font-size: 14px;
+    font: Roboto, sans-serif;
+    width: 400px;
 }
 .faq__man {
-width: 400px;
-height: 344.391px
+    width: 400px;
+    height: 344.391px
 }
