@@ -1,16 +1,22 @@
+.contact__form {
+    --text-font: "Roboto", sans-serif;
+    --subtitle-text-font: "Playfair Display", serif;
+}
+
+
 .contacts__form-title {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--text-font);
     font-size: 12px;
 }
 
 .contacts__form-subtitle {
-    font-family: "Playfair Display", serif;
+    font-family: var(--subtitle-text-font);
     color: black;
     font-size: 34px;
 }
 
 .contacts__form-description {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--text-font);
     font-size: 17px;
 }
 
@@ -24,7 +30,7 @@ input:focus {
 }
 
 [type="submit"] {
-    font-family: "Roboto", sans-serif;
+    font-family: var(--text-font);
     font-size: 14px;
     color: white;
     background-color: rgb(20, 169, 238);
