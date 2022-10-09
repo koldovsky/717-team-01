@@ -16,7 +16,7 @@
 .footer__contacts {
 	background: url(../img/footer-img/footer-bg.jpg) no-repeat center center;
 	background-size: cover;
-	padding: 180px 0 80px;
+	padding: 220px 0 100px;
 }
 
 .footer__contacts-name,
@@ -41,7 +41,7 @@
 	margin: 0 10px;
 	width: calc(100% / 3 - 20px);
 	background-color: rgba(0, 0, 0, 0.65);
-	padding: 50px;
+	padding: 55px;
 }
 
 .footer__contacts-img,
@@ -77,6 +77,10 @@
 
 .footer__information-link:hover {
 	color: var(--text-color);
+}
+
+.footer__social {
+	padding-bottom: 15px;
 }
 
 .footer__social-copyright,

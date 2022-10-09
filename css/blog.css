@@ -6,13 +6,13 @@
 	--text-color: #505155;
 	--article-header-color: #232428;
 	--line-color: #EE2E14;
-	padding: 107px 0 15px;
+	padding: 110px 0 15px;
 }
 
 .center-wrapper {
-	max-width: 1200px;
+	max-width: 950px;
 	margin: 0 auto;
-	padding: 0 60px;
+	padding: 0 30px;
 }
 
 .blog {
