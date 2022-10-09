@@ -5,6 +5,16 @@
 	--text-color: #fff;
 }
 
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px;
+}
+
+.footer-col {
+	margin: 10px;
+}
+
 .footer__contacts-name,
 .footer__contacts-link,
 .footer__information-link,
@@ -27,10 +37,7 @@
 }
 
 .footer__contacts-list {
-	display: flex;
-	flex-wrap: wrap;
 	text-align: center;
-	margin: 0 -10px;
 }
 
 .footer__contacts-img {
@@ -38,10 +45,9 @@
 }
 
 .footer__contacts-item {
-	margin: 0 10px;
-	width: calc(100% / 3 - 20px);
 	background-color: rgba(0, 0, 0, 0.65);
 	padding: 55px;
+	width: calc(100% / 3 - 20px);
 }
 
 .footer__contacts-img,
@@ -69,6 +75,27 @@
 	background-color: var(--footer-background);
 }
 
+.footer__information-list-wrapper {
+	max-width: 550px;
+	margin: 0 auto;
+}
+
+.footer__information-link-logo {
+	display: block;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.footer__information-logo {
+	display: inline;
+}
+
+.footer__information-item {
+	padding-bottom: 15px;
+	width: calc(100% / 5 - 20px);
+	text-align: center;
+}
+
 .footer__information-link {
 	text-decoration: none;
 	font-size: 17px;
@@ -79,14 +106,25 @@
 	color: var(--text-color);
 }
 
-.footer__social {
-	padding-bottom: 15px;
-}
-
 .footer__social-copyright,
 .footer__social-rights {
 	font-size: 12px;
 	font-weight: 700;
+}
+
+.footer__social-copyright,
+.footer__social-icon-list,
+.footer__social-rights {
+	width: calc(100% / 3 - 20px);
+	align-self: baseline;
+}
+
+.footer__social-icon-list {
+	justify-content: center;
+}
+
+.footer__social-rights {
+	text-align: right;
 }
 
 .footer__social-icon-fb,
@@ -99,4 +137,39 @@
 .footer__social-icon-inst:hover,
 .footer__social-icon-yout:hover {
 	fill: var(--text-color);
+}
+
+@media screen and (max-width: 700px) {
+	.center-wrapper {
+		padding: 0 15px;
+	}
+
+	.footer__contacts-item {
+		width: calc(100% / 2 - 20px);
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.center-wrapper {
+		padding: 0 10px;
+	}
+
+	.footer__contacts-item {
+		width: calc(100% - 20px);
+	}
+
+	.footer__information-item {
+		width: calc(100% - 20px);
+	}
+
+	.footer__social-copyright,
+	.footer__social-icon-list,
+	.footer__social-rights {
+		width: calc(100% - 20px);
+	}
+
+	.footer__social-copyright,
+	.footer__social-rights {
+		text-align: center;
+	}
 }
