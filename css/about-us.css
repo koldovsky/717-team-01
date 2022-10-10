@@ -1,0 +1,19 @@
+.three-steps {
+    background: url(../img/background_about_us.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about-us__subtitle {
+    font-size: 39px;
+    color: var(--main-text-color);
+}
+
+.about-us__ten-days {
+    color: var(--text-bold-color, blue);
+}
+
+.three-steps__step {
+    padding: 28px;
+    background-color: #fff;
+    width: 250px;
+}
