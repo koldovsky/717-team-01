@@ -75,8 +75,8 @@
 	background-color: var(--footer-background);
 }
 
-.footer__information-list-wrapper {
-	max-width: 550px;
+.footer__information-list {
+	max-width: 450px;
 	margin: 0 auto;
 }
 
@@ -94,6 +94,10 @@
 	padding-bottom: 15px;
 	width: calc(100% / 5 - 20px);
 	text-align: center;
+}
+
+.footer__information-item_right {
+	text-align: right;
 }
 
 .footer__information-link {
@@ -152,6 +156,10 @@
 @media screen and (max-width: 550px) {
 	.center-wrapper {
 		padding: 0 10px;
+	}
+
+	.footer__information-item_right {
+		text-align: center;
 	}
 
 	.footer__contacts-item {
