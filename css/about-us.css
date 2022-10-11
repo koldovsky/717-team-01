@@ -1,6 +1,6 @@
 .about-us {
     display: grid;
-    background-color: var(--background-total-light, white);
+    background-color: var(--background-total-light);
     width: 100%;
     grid-template-columns: 50% 50%;
     padding-top: 100px;
@@ -11,17 +11,17 @@
 
 
 .three-steps {
-    background: url(../img/background_about_us.jpg) no-repeat bottom center;
+    background: url(../img/background_about_us.jpg) no-repeat top center;
     background-size: cover;
     height: 500px;
     display: flex;
-    justify-content: space-around;
     text-align: left;
     padding-top: 90px;
     padding-bottom: 400px;
     padding-left: 40px;
     padding-right: 40px;
-    }
+    position: absolute;
+        }
 
 .about-us__subtitle {
     font-size: 39px;
@@ -29,19 +29,21 @@
     }
 
 .about-us__ten-days {
-    color: var(--text-bold-color, blue);
+    color: var(--text-bold-color);
 }
 
 .three-steps__step {
     padding: 28px;
-    color: var(--text-color-1, white);
-    width: 250px;
+    color: var(--text-color-1);
     height: 300px;
     display: block;
+    background-color: var(--background-total-light);
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .about_us__red-line {
-    color: var(--color-for-signs, red);
+    color: var(--color-for-signs);
 }
 
 .name-step {
