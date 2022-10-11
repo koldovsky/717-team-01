@@ -2,7 +2,10 @@
 .three-steps {
     background: url(../img/background_about_us.jpg) no-repeat;
     background-size: cover;
-}
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    }
 
 .about-us__subtitle {
     font-size: 39px;
@@ -15,11 +18,22 @@
 
 .three-steps__step {
     padding: 28px;
-    background-color: #fff;
+    color: var(--text-color-1, white);
     width: 250px;
+    height: 300px;
+    display: block;
 }
 
 .about_us__red-line {
     color: var(--color-for-signs, red);
 }
 
+.name-step {
+    font-size: 23px;
+    color: var(--text-dark-shade);
+    display: box;
+}
+.description-step {
+    font-size: 14px;
+    color: var(--text-dark-shade);
+}
