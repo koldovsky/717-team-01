@@ -20,7 +20,8 @@
 	--color-for-signs: rgb(238,46,20);
 	--background-color: #232428;
 	--text-dark-shade: #232428;
-}
+	--background-total-light: #fff;
+	}
 
 img {
 	max-width: 100%;
