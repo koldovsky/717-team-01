@@ -1,3 +1,9 @@
+.faq {
+background-color: black;
+width: 1900px;
+padding-top: 100px;
+padding-left: 200px;
+}
 .faq__block__text {
     color: rgba(255,255,255);
     font-size: inherit;
@@ -35,5 +41,6 @@
 }
 .faq__man {
     width: 400px;
-    height: 344.391px
+    height: 345.400px;
+    padding-right: 30px
 }
