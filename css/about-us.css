@@ -10,17 +10,15 @@
 }
 
 .three-steps {
-    background: url(../img/background_about_us.jpg) no-repeat top center;
+    background: url(../img/background_about_us.jpg) no-repeat bottom center;
     background-size: cover;
-    height: 500px;
     display: flex;
     text-align: left;
     padding-top: 90px;
     padding-bottom: 400px;
     padding-left: 40px;
     padding-right: 40px;
-    position: absolute;
-}
+    }
 
 .about-us__subtitle {
     font-size: 39px;
@@ -47,7 +45,6 @@
 .three-steps__step {
     padding: 28px;
     color: var(--text-color-1);
-    height: 300px;
     display: block;
     background-color: var(--background-total-light);
     margin-left: 15px;
@@ -73,4 +70,23 @@
     line-height: 1.6;
     color: var(--text-dark-shade);
     margin-top: 20px;
+}
+.three-steps__picture {
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    height: 75px;
+}
+
+.step-one .three-steps__picture {    
+    background-image: url(../img/steps/first_step.png);
+}
+
+.step-two .three-steps__picture {    
+    background-image: url(../img/steps/second_step.png);
+}
+
+.step-three .three-steps__picture {    
+    background-image: url(../img/steps/third_step.png);
 }
