@@ -22,19 +22,19 @@ padding-left: 200px;
     color: #505155;
 }
 .faq__text {
-    color: rgba(255,255,255);
+    color: white;
     font-size: 19px;
     font: Roboto, sans-serif;
     width: 400px;
 }
 .questions {
-    color: rgba(255,255,255);
+    color: white;
     font-size: 17px;
     font: Roboto, sans-serif;
     width: 400px;
 }
 .answers {
-    color: rgb(169,169,169);
+    color: gray;
     font-size: 14px;
     font: Roboto, sans-serif;
     width: 400px;
