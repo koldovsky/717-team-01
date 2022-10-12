@@ -9,7 +9,6 @@
     padding-right: 32px;
 }
 
-
 .three-steps {
     background: url(../img/background_about_us.jpg) no-repeat top center;
     background-size: cover;
@@ -21,15 +20,28 @@
     padding-left: 40px;
     padding-right: 40px;
     position: absolute;
-        }
+}
 
 .about-us__subtitle {
     font-size: 39px;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
     color: var(--main-text-color);
-    }
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 20px;
+}
 
 .about-us__ten-days {
     color: var(--text-bold-color);
+}
+
+.about-us__text {
+    color: var(--main-text-color);
+    font-size: 19px;
+    line-height: 1.7;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .three-steps__step {
@@ -44,14 +56,21 @@
 
 .about_us__red-line {
     color: var(--color-for-signs);
+    font-family: 'Playfair Display', serif;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .name-step {
     font-size: 23px;
     color: var(--text-dark-shade);
     display: box;
+    margin-top: 20px;
 }
+
 .description-step {
     font-size: 14px;
+    line-height: 1.6;
     color: var(--text-dark-shade);
+    margin-top: 20px;
 }
