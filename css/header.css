@@ -17,11 +17,17 @@
 
 .header__logo-container {
     max-width: 188px;
+    top: 0;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
+@media (max-width: 990px) {
 .header__menu {
     max-width: 100%;
     display: none;
+    }
 }
 
 
@@ -32,9 +38,6 @@
     text-decoration: none;
 }
 
-.button {
-    
-}
 
 /*
 @media (max-width: 990px) {
