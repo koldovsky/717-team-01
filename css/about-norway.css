@@ -1,4 +1,16 @@
 .about-norway {
     background-color: var(--background-total-light);
     width: 100%;
+
 }
+.about-norway__block-text {
+    color: #6f7380;
+    font-size: inherit;
+}
+
+
+.about-norway__block-span {
+    color: rgb(238,46,20);
+}
+
+ 
