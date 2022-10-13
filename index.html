@@ -653,26 +653,28 @@
 		<!--Natalya Bilyak - End FAQ-->
 
 		<!-- Snizhanna Bushko - CONTACT US - START -->
-		<section class="contact-form" id="contact-form">
-			<form class="contacts__form" action="https://formspree.io/f/xwkzbzqp" method="POST" id="contacts-form">
-				<h2 class="contacts__form-title">
-					<span class="divider">━</span> CONTACT US
-				</h2>
-				<h3 class="contacts__form-subtitle">Book your journey!</h3>
-				<p class="contacts__form-description">
-					Complete the form below, and we will contact you soon to discuss the
-					details!
-				</p>
-				<input type="text" required name="clients-name" placeholder="Your Name" />
-				<input type="tel" required name="clients-phone" placeholder="Your Phone" />
-				<input type="email" required name="clients-email" placeholder="Your Email" />
-				<div class="form__input-date-container">
-					<label for="date"> Choose date </label>
-					<input type="date" required name="chosen-date" id="date" />
-				</div>
-				<input type="submit" value="Request a quote" />
-			</form>
-		</section>
+		<section class="contact-us" id="contact-form">
+            <div class="contact-us__container">
+                <h2 class="contact-us__title">
+                    <span class="divider">━</span> CONTACT US
+                </h2>
+                <h3 class="contact-us__subtitle">
+                    Book your journey!
+                </h3>
+                <p class="contact-us__description">
+                    Complete the form below, and we will contact you soon to discuss the details!
+                </p>
+                <div class="contact-us__form-container">
+                    <form action="" class="contact-us__form" action="https://formspree.io/f/xwkzbzqp" method="POST" id="contacts-form">
+                        <input type="text" placeholder="Your Name" required name="client-name">
+                        <input type="tel" placeholder="Your Phone" required name="client-phone">
+                        <input type="email" placeholder="Your Email" required name="client-email">
+                        <input type="text" placeholder="Choose date" onfocus="(this.type='date')">
+                        <input type="submit" value="Request a quote" class="contact-us__form-submit-input">
+                    </form>
+                </div>
+            </div>
+        </section>
 		<!-- CONTACT US - END -->
 
 		<!-- Irina Borisenko - Start "Testimonials"-->
