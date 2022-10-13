@@ -41,6 +41,8 @@
     display: flex;
     flex-direction: column;
     margin-top: 60px;
+    width: 320px;
+    padding-right: 15px;
     
 }
 .stunnigd__paragraph-text {
@@ -48,7 +50,7 @@
     font-size: 17px;
     font-family: inherit;
     padding-left: 15px;
-    width: 320px;
+    
 }
 
 .stunnigd__container {
@@ -67,6 +69,18 @@
 width: 340px;
 height: 300px;
 }
+.stunnigd__conteiner-button {
+    display: flex;
+    text-align: center;
+}
+
+.stunnigd__conteiner-item {
+    list-style: circle;
+    color: red;
+    display: inline-block;
+
+}
+
 
 /*
 .stunnigd__block-text {
