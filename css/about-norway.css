@@ -2,3 +2,10 @@
     background-color: var(--background-total-light);
     width: 100%;
 }
+
+.about-norway__subtitle-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
