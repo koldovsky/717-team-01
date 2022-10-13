@@ -14,7 +14,6 @@
 .burger-checkbox:checked ~ .header__menu {
     display: flex;
     flex-direction: column;
-    
 }
 
 @media (min-width: 500px) {
