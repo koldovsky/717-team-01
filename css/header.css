@@ -64,6 +64,37 @@
     border-color: var(--text-color-lightest);
 }
 
+.header__baner {
+    margin: 90px 24px;
+    max-width: 1199px;
+    width: 100%;
+}
+
+.header__headline_block {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 15px;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+
+.header__block-name {
+    text-align: left;
+    color: var(--text-color-lightest);
+    font-size: 12px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+}
+
+.header__red-line {
+    color: var(--color-for-signs);
+    padding-right: 10px;
+}
+
+
+
 /*
 @media (max-width: 990px) {
      .header__menu {
