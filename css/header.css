@@ -107,7 +107,22 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
+        justify-content: space-between;
         box-sizing: border-box;
+
+    }
+
+    .header__promo-box {
+    display: flex;
+    align-items: flex-end;
+    width: 60%;
+    }
+
+    .header__aside {
+     display: flex;
+     justify-content: flex-end;
+     width: 40%;
+     justify-content: space-between;
     }
 }
 
@@ -126,9 +141,10 @@
 
 .header__promo-video {
     color: var(--text-color-lightest);
-    font-size: 17px;
+    font-size: 12px;
     text-decoration: none;
     text-decoration: underline;
+    
 }
 
 .header__aside {
