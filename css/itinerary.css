@@ -3,6 +3,8 @@
   padding-bottom: 90px;
   color: var(--main-text-color);
   font-size: 17px;
+    /* background-image: url(../img/background__itinerary.png);
+    background-size: cover; */
 }
 
 .itinerary-content {
@@ -10,8 +12,6 @@
   min-width: 320px;   /* MOVE TO COMMON */
   max-width: 1200px;    /* MOVE TO COMMON */
   margin: 0 auto;     /* MOVE TO COMMON */
-  /* background-image: url(../img/background__itinerary.png);
-    background-size: cover; */
 }
 
 .itinerary-header__subtitle,
