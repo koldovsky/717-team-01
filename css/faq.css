@@ -39,17 +39,8 @@ padding-left: 200px;
     font: Roboto, sans-serif;
     width: 400px;
 }
-figure {
-    float: right;
-    width: 30%;
-    text-align: center;
-    font-style: italic;
-    font-size: smaller;
-    text-indent: 0;
-    border: thin silver solid;
-    margin: 0.5em;
-    padding: 0.5em;
-  }
-  img.scaled {
-    width: 100%;
-  }
+.faq__man {
+    width: 600px;
+    height: 400px;
+    padding-right: 30px
+}
