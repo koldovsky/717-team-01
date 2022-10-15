@@ -9,6 +9,7 @@
   padding: 0 24px;
   min-width: 320px;   /* MOVE TO COMMON */
   max-width: 1200px;    /* MOVE TO COMMON */
+  margin: 0 auto;
   /* background-image: url(../img/background__itinerary.png);
     background-size: cover; */
 }
