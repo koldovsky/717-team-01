@@ -1,42 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    font-family: 'Roboto', sans-serif;
-	--text-color-lightest: #fff;
-	--text-color-light: rgba(255,255,255,0.75);
-	--text-color-dark: #a9a9a9;
-	--text-color-darker: #707070;
-	--main-text-color: #505155;
-	--text-bold-color: #14a9ee;
-	--block-name-dark: #6f7380;
-	--block-name-light: rgba(255,255,255,0.6);
-	--color-for-signs: rgb(238,46,20);
-	--background-color: #232428;
-	--text-dark-shade: #232428;
-	--background-total-light: #fff;
-	--input-bg-color: #2d2e33;
-    --input-button-bg-color: #18a8ee;
-	}
+  font-family: "Roboto", sans-serif;
+  max-width: 1099px;
+  --text-color-lightest: #fff;
+  --text-color-light: rgba(255, 255, 255, 0.75);
+  --text-color-dark: #a9a9a9;
+  --text-color-darker: #707070;
+  --main-text-color: #505155;
+  --text-bold-color: #14a9ee;
+  --block-name-dark: #6f7380;
+  --block-name-light: rgba(255, 255, 255, 0.6);
+  --color-for-signs: rgb(238, 46, 20);
+  --background-color: #232428;
+  --text-dark-shade: #232428;
+  --background-total-light: #fff;
+  --input-bg-color: #2d2e33;
+  --input-button-bg-color: #18a8ee;
+  --itinerary-underline-color: #e4e4e5;
+  --itinerary-menu-text-color: #969698;
+}
 
 img {
-	max-width: 100%;
-	height: auto;
-	display: block;
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 
 ol,
 ul {
-	list-style: none;
+  list-style: none;
 }
 
 h1 {
-	font-family: 'Playfair Display', serif;
-	color: #fff;
+  font-family: "Playfair Display", serif;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 70px;
+  text-align: left;
+  justify-content: flex-start;
+  font-weight: 600;
+  font-stretch: 100%;
 }
