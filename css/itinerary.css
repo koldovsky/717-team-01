@@ -69,6 +69,23 @@
   font-weight: 700;
 }
 
+.tabs-article__image-wrap {
+  display: block;
+  position: relative;
+  padding-top: 65%;
+  min-height: 32px;
+}
+
+.tabs-article__image img {
+  object-fit: cover;
+  object-position: 50%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
 .itinerary-tabs__location > a:hover {
   color: var(--main-text-color);
 }
@@ -166,10 +183,8 @@
     grid-template-columns: 1fr 1fr;
   }
 
-  .tabs-article__image img {
-    object-fit: cover;
-    object-position: 50% 50%;
-    width: 100%;
+  .tabs-article__image-wrap {
+    padding-top: 100%;
     height: 100%;
   }
 
@@ -198,6 +213,10 @@
 
   .itinerary-header__title {
     font-size: 45px;
+  }
+
+  .tabs-article__image-wrap {
+    padding-top: 55%;
   }
 
   .tabs-article__text {
