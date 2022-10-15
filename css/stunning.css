@@ -1,6 +1,7 @@
 .stunnigd {
   background-color: black;
-  width: 1900px;
+  max-width: 1200px;
+  height: auto;
   padding-top: 90px;
   padding-left: 15px;
 }
@@ -41,7 +42,6 @@
     display: flex;
     flex-direction: column;
     margin-top: 60px;
-    width: 320px;
     padding-right: 15px;
     
 }
@@ -55,93 +55,27 @@
 
 .stunnigd__container {
     display: flex;
-    flex-direction: row;
     margin-top: 50px;
     padding-left: 15px;
-}
-.stunnigd__container-item {
-    display: flex;
-    gap: 20px;
-    
-}
-.stunnigd__container-img {
-
-width: 340px;
-height: 300px;
-}
-.stunnigd__conteiner-button {
-    display: flex;
-    text-align: center;
+    padding-right: 45px;
 }
 
-.stunnigd__conteiner-item {
-    list-style: circle;
-    color: red;
-    display: inline-block;
-
-}
-
-
-/*
-.stunnigd__block-text {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: inherit;
-}
-.stunnigd__block-span {
-  color: red;
-}
-.stunnigd__block-name {
-  color: white;
-  font-family: "Plafair Display";
-  font-size: 39px;
-  font: serif;
-  padding-top: 20px;
-}
-.stunnigd__block-name-span {
-  color: #505155;
-  font-family: "Plafair Display";
-  font-size: 39px;
-  font: serif;
-}
-.stunnigd__block-name-text {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 17px;
-  font: Roboto, sans-serif;
-  width: 320px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  font-weight: 400px;
-  text-align: left;
-}
-.stunnigd__container-item {
-  list-style: none;
-}
 .stunnigd__container-item {
   display: flex;
+  flex-direction: row;
 }
 .stunnigd__container-list {
-  width: 600px;
-  height: 400px;
+  position: relative
+  overflow: hidden;
 }
 .stunnigd__container-img {
-  width: 600px;
-  height: 400px;
-  padding-right: 30px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute
+  top: 0;
+  left: 0;   
 }
-.stunnigd_writer {
-  display: block;
-  margin-left: 250px;
-  margin-right: 250px;
-}
-.stunnigd_writer-text {
-  width: 500px;
-  color: white;
-  text-align: center;
-  font-size: 19px;
-}
-.stunnigd_writer-name {
-  color: rgba(255, 255, 255, 0.6);
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: justify;
-}
+
+
+
