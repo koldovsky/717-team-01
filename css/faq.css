@@ -1,11 +1,11 @@
 .faq {
 background-color: black;
-max-width: 1900px;
+max-width: 1099px;
 padding-top: 100px;
 padding-left: 200px;
 }
 .faq__block__text {
-    color: rgba(255,255,255);
+    color: rgba(255,255,255,0.6);
     font-size: inherit;
 }
 .faq__block__span {
@@ -39,8 +39,17 @@ padding-left: 200px;
     font: Roboto, sans-serif;
     width: 400px;
 }
-.faq__man {
-    width: 600px;
-    height: 400px;
-    padding-right: 30px
-}
+figure {
+    float: right;
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+  img.scaled {
+    width: 100%;
+  }
