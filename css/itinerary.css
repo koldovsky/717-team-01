@@ -46,7 +46,6 @@
 .itinerary-tabs__menu {
   padding: 0 15px;
   display: flex;
-  justify-content: baseline;
   align-items: center;
   overflow-x: auto;
   overflow-y: hidden;
@@ -107,9 +106,9 @@
 }
 
 .tabs-article__description {
-  color: var(--text-color-darker);
   margin-top: 30px;
   margin-bottom: 5px;
+  color: var(--text-color-darker);
 }
 
 .tabs-article__icon {
