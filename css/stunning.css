@@ -1,6 +1,6 @@
 .stunnigd {
   background-color: black;
-  max-width: 1200px;
+  max-width: 100%;
   height: auto;
   padding-top: 90px;
   padding-left: 15px;
@@ -64,17 +64,35 @@
   display: flex;
   flex-direction: row;
 }
-.stunnigd__container-list {
-  position: relative
-  overflow: hidden;
-}
+
 .stunnigd__container-img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  position: absolute
-  top: 0;
-  left: 0;   
+
+}
+.stunnigd_writer {
+  margin-top: 50px;
+  padding-top: 50px;
+  padding: 0% 25%;
+  justify-content: center;
+}
+.stunnigd_writer-text {
+  color: white;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Playfair Display",serif;
+  font-weight: bold;
+  line-height: 1.88;
+  vertical-align: baseline;
+
+}
+.stunnigd_writer-name {
+  color: var(--block-name-light);
+  text-align: center;
+  font-size:17px;
+  margin-top: 30px;
+  font-family: "Roboto", sans-serif;
 }
 
 
