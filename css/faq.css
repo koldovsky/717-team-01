@@ -1,6 +1,6 @@
 .faq {
 background-color: black;
-width: 1900px;
+max-width: 1900px;
 padding-top: 100px;
 padding-left: 200px;
 }
