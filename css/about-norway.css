@@ -1,16 +1,138 @@
 .about-norway {
     background-color: var(--background-total-light);
     width: 100%;
+    max-width: 772;
+    margin: auto;
 
 }
+.about-norway__first-box {
+    padding-top: 105px;
+    padding-bottom: 60px;
+    width: 911px;
+    height: 623.641;
+    display: flex;
+    
+
+}
+.about-norway__box1 {
+    width: 283.656px;
+    height: 623.641;
+}
+.about-norway__box2 {
+    width: 283.656px;
+    height: 623.641;
+}
+.about-norway__box3 {
+    width: 283.656px;
+    height: 623.641;
+}
+
+
+.about-norway__first-column {
+    width: 283.656px;
+    
+}
+.about-norway__second-column {
+    width: 283.656px;
+    
+}
+
 .about-norway__block-text {
-    color: #6f7380;
-    font-size: inherit;
+    color: var(--block-name-dark);
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 
-.about-norway__block-span {
-    color: rgb(238,46,20);
+.about-norway__block_span {
+    color: var(--color-for-signs);
+       
 }
+
+.about-norway__subtitle {
+    font-family: 'Playfair Display', serif;
+    color: var(--main-text-color);
+    font-size: 39px;
+    font-weight: 700;
+}
+.about-norway__text1 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    font-size: 19px;
+    font-size: 400;
+    width: 233.656px;
+    
+}
+.about-norway__text2 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    font-size: 19px;
+    font-size: 400;
+    width: 233.656px;
+}
+.about-norway__text3 {
+    font-family: 'Roboto', sans-serif;
+    color: var(--main-text-color);
+    font-size: 19px;
+    font-size: 400;
+    width: 233.656px;;
+}
+.about-norway__numbers1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px; 
+    font-weight: 500;
+    color: var(-text-dark-shade)
+}
+.about-norway__numbers2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px; 
+    font-weight: 500;
+    color: var(-text-dark-shade)
+}
+.about-norway__numbers3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px; 
+    font-weight: 500;
+    color: var(-text-dark-shade)
+}
+.about-norway__numbers4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px; 
+    font-weight: 500;
+    color: var(-text-dark-shade)
+}
+.about-norway__numbers1-text {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: var(--main-text-color);
+}
+.about-norway__numbers2-text {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: var(--main-text-color);
+}
+.about-norway__numbers3-text {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: var(--main-text-color);
+}
+.about-norway__numbers4-text {
+    font-family: 'Roboto' sans-serif;
+    font-size: 14px;
+    font-weight: 400px;
+    color: var(--main-text-color);
+}
+.about-norway__image_words {
+    font-family: 'Roboto' sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--text-color-lightest);
+}
+
+
 
  
