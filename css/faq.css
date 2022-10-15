@@ -1,11 +1,11 @@
 .faq {
 background-color: black;
-max-width: 1900px;
+max-width: 1099px;
 padding-top: 100px;
 padding-left: 200px;
 }
 .faq__block__text {
-    color: rgba(255,255,255);
+    color: rgba(255,255,255,0.6);
     font-size: inherit;
 }
 .faq__block__span {
@@ -38,6 +38,16 @@ padding-left: 200px;
     font-size: 14px;
     font: Roboto, sans-serif;
     width: 400px;
+}
+.figure {
+    position: absolute;
+    border-radius: inherit;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-family: "object-fit:cover";
+    text-align: left;
 }
 .faq__man {
     width: 600px;
