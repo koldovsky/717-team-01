@@ -9,7 +9,7 @@
 
 :root {
   font-family: "Roboto", sans-serif;
-  max-width: 1099px;
+
   --text-color-lightest: #fff;
   --text-color-light: rgba(255, 255, 255, 0.75);
   --text-color-dark: #a9a9a9;

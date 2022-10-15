@@ -227,3 +227,9 @@
     font-size: 36px;
   }
 }
+
+@media (min-width: 1280px) {
+  .itinerary-content {
+    padding: 0 15px;
+  }
+}
