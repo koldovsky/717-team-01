@@ -6,6 +6,10 @@
     max-width: 1200px;
 }
 
+.header__max-width {
+    max-width: 1200px;
+}
+
 .header__nav {
     display: flex;
     flex-direction: row ;
