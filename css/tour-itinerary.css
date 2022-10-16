@@ -1,67 +1,82 @@
 .tour-itinerary__background{
     width: 100%;
 }
+.tour-itinerary-container{
+    max-width: 1200px;
+    margin: auto;
+}
+.tour-itinerary__wrapper{
+    display: flex;
+    z-index: 5;
+    position: absolute;
+    top: 1500px;
+}
 .tour-itinerary__map-container{
-    width: 570px;
-    margin-left: 15px;
+    display: block;
+    width: 610px;
+    height: 570px;
 }
 .tour-itinerary__map{
     width: 100%;
-    z-index: 5;
-    position: ;
 }
 .tour-itinerary__title__colorline{
-    color: rgb(238,46,20)
+    color: var(--color-for-signs)
 }
 .tour-itinerary__title{
     font-weight: 500;
     color: rgba(255,255,255,0.6);
     font-size: 13px;
 }
-.tour-itinerary__text{
-    background-color: rgb(0, 0, 0);
+.tour-itinerary__text-container{
+    border: solid #fff 2px;
+    width: 570px;
 }
 .tour-itinerary__subtitle{
     font-family: 'Playfair Display', serif;
-    color: rgba(255,255,255); 
+    color: var(--text-color-lightest); 
     font-size: 45px;
     font-weight: 700px;
+    margin-top: 20px;
+    line-height: 50px;
 }
 .tour-itinerary__subtitle__colortext{
-    color: #505155;
+    color: var(--main-text-color);
 }
 .tour-itinerary__description{
     font-size: 17px;
-    color: rgba(255,255,255,0.6);
+    color: var(--block-name-light);
+    margin-top: 25px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
 }
 .tour-itinerary__icons{
     width: 50px;
-    color: #14a9ee;
+    color: var(--text-bold-color);
 }
 .tour-itinerary__license{
-    color: rgba(255,255,255);
+    color: var(--text-color-lightest);
     font-weight: 700px;
     font-size: 21px;
 }
 .tour-itinerary__license-text{
-    color: #a9a9a9;
+    color: var(--text-color-dark);
     font-weight: 400px;
 }
 .tour-itinerary__guide{
-    color: rgba(255,255,255);
+    color: var(--text-color-lightest);
     font-weight: 700px;
     font-size: 21px;
 }
 .tour-itinerary__guide-text{
-    color: #a9a9a9;
+    color: var(--text-color-dark);
     font-weight: 400px;
 }
 .tour-itinerary__satisfaction{
-    color: rgba(255,255,255);
+    color: var(--text-color-lightest);
     font-weight: 700px;
     font-size: 21px;
 }
 .tour-itinerary__satisfaction-text{
-    color: #a9a9a9;
+    color: var(--text-color-dark);
     font-weight: 400px;
 }
