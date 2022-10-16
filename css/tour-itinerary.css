@@ -1,8 +1,14 @@
 .tour-itinerary__background{
     width: 100%;
 }
+.tour-itinerary__map-container{
+    width: 570px;
+    margin-left: 15px;
+}
 .tour-itinerary__map{
-    width: 600px;
+    width: 100%;
+    z-index: 5;
+    position: ;
 }
 .tour-itinerary__title__colorline{
     color: rgb(238,46,20)
