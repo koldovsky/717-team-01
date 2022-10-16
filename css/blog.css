@@ -1,42 +1,50 @@
-.blog-wrapper {
+#blog {
 	--header-font: "Playfair Display",
 		serif;
+	/*убрать переменную в продакшн, она задана в root*/
 	--text-font: Roboto,
 		serif;
 	--text-color: #505155;
 	--article-header-color: #232428;
 	--line-color: #EE2E14;
-	padding: 110px 0 15px;
-}
-
-.center-wrapper {
-	max-width: 950px;
-	min-width: 320px;
-	margin: 0 auto;
-	padding: 0 30px;
-}
-
-.blog {
-	padding: 0 30px;
+	padding: 90px 0 15px;
 	text-align: center;
 }
 
+.center-container {
+	max-width: 950px;
+	min-width: 320px;
+	margin: auto;
+	padding: 0 20px;
+}
+
 .blog__line-wrapper {
-	display: block;
 	margin-bottom: 20px;
 }
 
+/*Убрать блок в продакшн, font задан в root*/
+.blog__line,
+.blog__description,
+.stories__title {
+	font-family: var(--text-font);
+}
+
+.blog__line {
+	color: var(--line-color);
+	font-size: 12px;
+}
+
 .blog__name {
-	font-family: var(--header-font);
+	font-family: var(--text-font);
 	font-size: 12px;
 	text-transform: uppercase;
 }
 
-.blog__line,
-.blog__title,
-.blog__description,
-.stories__title {
-	font-family: var(--text-font);
+.blog__title {
+	font-family: var(--header-font);
+	font-size: 34px;
+	padding: 0 10px;
+	margin-bottom: 50px;
 }
 
 .blog__name,
@@ -45,26 +53,22 @@
 	color: var(--text-color);
 }
 
-.blog__line {
-	color: var(--line-color);
-	font-size: 12px;
-}
-
-.blog__title {
-	font-size: 39px;
-	margin-bottom: 40px;
-}
-
 .blog__description {
 	font-size: 19px;
+	padding: 0 20px;
 	margin-bottom: 40px;
-	padding: 0 50px;
 }
 
 .stories {
-	border: 1px solid rgba(0, 0, 0, 10%);
+	min-height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid rgba(33,
+			39,
+			54,
+			0.12);
 	text-align: center;
-	padding: 200px 0;
 }
 
 .stories__title {
