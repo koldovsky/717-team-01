@@ -14,6 +14,10 @@ Format for img
     font-family: "Playfair Display", serif;
 }
 
+.carousel___person {
+    color: var(--text-dark-shade);
+}
+
 .carousel___person-text {
-    color: var(--text-color-darker);
+    color: rgb(112, 112, 112);
 }
