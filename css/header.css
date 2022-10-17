@@ -1,7 +1,7 @@
 .header {
     background-image: url(../img/header_photo.png);
     background-size: cover;
-    background-position: 50% 50%;
+    background-position: 85% 50%;
     min-width: 320px;
 }
 
@@ -111,7 +111,7 @@
     box-sizing: border-box;
 }
 
-@media (min-width: 770px) {
+@media (min-width: 768px) {
     .header__main-content {
     margin-top: 50px;
     padding-bottom: 90px;
@@ -138,15 +138,20 @@
 .header__promo-box {
     padding: 0 15px;
     line-height: 17px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: flex-start;
 }
 
 .header__adition-icon {
-    max-width: 20px;
-    text-align: left;
+    line-height: 17px;
+
 }
 
 .header__adition-line {
     color: var(--text-color-lightest);
+    margin-left: 10px;
 }
 
 .header__promo-video {
