@@ -1,6 +1,9 @@
 /*
 Format for img
 */
+#testimonials {
+    color: var(--main-text-color);
+}
 .carousel___person-img {
     width: 100px;
     border-style: none;
