@@ -1,5 +1,5 @@
 /*
-Format for img
+Format for testimonials block
 */
 #testimonials {
     color: var(--main-text-color);
@@ -15,6 +15,8 @@ Format for img
     width: 100px;
     border-style: none;
     border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .testimonials__header__title {
