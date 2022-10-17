@@ -30,7 +30,6 @@
 }
 .tour-itinerary__text-container{
     margin-top: 50px;
-    border: solid #fff 2px;
     width: 570px;
 }
 .tour-itinerary__subtitle{
@@ -67,9 +66,11 @@
     font-weight: 700px;
     font-size: 21px;
     letter-spacing: 0.07em;
+    line-height: 25px;
 }
 .tour-itinerary__license-text, .tour-itinerary__guide-text, .tour-itinerary__satisfaction-text{
     color: var(--text-color-dark);
     font-weight: 400px;
+    line-height: 25px;
 }
 
