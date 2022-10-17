@@ -13,3 +13,7 @@ Format for img
 .testimonials__header__title {
     font-family: "Playfair Display", serif;
 }
+
+.carousel___person-text {
+    color: var(--text-color-darker);
+}
