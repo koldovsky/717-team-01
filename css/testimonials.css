@@ -2,7 +2,11 @@
 Format for img
 */
 .carousel___person-img {
-    width: 200px;
+    width: 100px;
     border-style: none;
     border-radius: 50%;
+}
+
+.testimonials__header__title {
+    font-family: "Playfair Display", serif;
 }
