@@ -1,0 +1,268 @@
+.itinerary {
+  padding-top: 60px;
+  padding-bottom: 90px;
+  color: var(--main-text-color);
+  font-size: 17px;
+    /* background-image: url(../img/background__itinerary.png);
+    background-size: cover; */
+}
+
+.itinerary-content {
+  padding: 0 24px;
+  min-width: 320px;   /* MOVE TO COMMON */
+  max-width: 1200px;    /* MOVE TO COMMON */
+  margin: 0 auto;     /* MOVE TO COMMON */
+}
+
+.itinerary-header__subtitle,
+.tabs-article__subtitle {
+  color: var(--block-name-dark);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+}
+
+.itinerary-header__title {
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 34px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.itinerary-header__intro {
+  margin-top: 25px;
+  font-size: 19px;
+  line-height: 1.7;
+}
+
+.itinerary-tabs {
+  margin-top: 45px;
+}
+
+.itinerary-tabs__nav {
+  margin-left: -15px;
+}
+
+.itinerary-tabs__menu {
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border-bottom: 1px solid var(--itinerary-underline-color);
+}
+
+.itinerary-tabs__location {
+  padding: 15px 20px;
+}
+
+.itinerary-tabs__location > a,
+.tabs-article__description {
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.itinerary-tabs__location > a {
+  color: var(--itinerary-menu-text-color);
+  text-decoration: none;
+  white-space: nowrap;
+  font-weight: 700;
+}
+
+.tabs-article__image-wrap {
+  padding-top: 65%;
+  min-height: 32px;
+  display: block;
+  position: relative;
+}
+
+.tabs-article__image img {
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.itinerary-tabs__location > a:hover {
+  color: var(--main-text-color);
+}
+
+.tabs-articles {
+  margin-top: 30px;
+}
+
+.tabs-article__text {
+  padding: 39px 43px;
+  display: flex;
+  flex-direction: column;
+}
+
+.tabs-article__title {
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  line-height: 1.33;
+}
+
+.tabs-article__duration,
+.tabs-article__hotel {
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.tabs-article__contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  white-space: nowrap;
+}
+
+.tabs-article__duration {
+  color: var(--color-for-signs);
+  font-size: 19px;
+}
+
+.tabs-article__hotel {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.tabs-article__description {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: var(--text-color-darker);
+}
+
+.tabs-article__icon {
+  margin-top: 15px;
+}
+
+.tabs-article__icon > p {
+  display: flex;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.tabs-article__icon img {
+  margin-right: 10px;
+}
+
+.tabs-article__button-list {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 55px;
+}
+
+.tabs-article__button {
+  margin: 10px;
+  padding: 9px 24px;
+  display: flex;
+  align-items: center;
+  background-color: var(--input-button-bg-color);
+  color: var(--text-color-lightest);
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.tabs-article__button img {
+  display: inline-flex;
+}
+
+.tabs-article__button:hover {
+  background-color: black;
+  color: var(--text-color-lightest);
+  transition: 0.3s;
+}
+
+@media (min-width: 768px) {
+  .itinerary {
+    padding-bottom: 110px;
+  }
+
+  .itinerary-content {
+    padding: 0 32px;
+  }
+
+  .itinerary-header__title {
+    font-size: 39px;
+  }
+
+  .itinerary-header__intro {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+
+  .tabs-article {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .tabs-article__image-wrap {
+    padding-top: 100%;
+    height: 100%;
+  }
+
+  .tabs-article__text {
+    padding: 46px 52px;
+  }
+
+  .tabs-article__title {
+    font-size: 33px;
+  }
+
+  .tabs-article__contacts {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 0.5fr;
+    gap: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .itinerary {
+    padding-bottom: 130px;
+  }
+
+  .itinerary-content {
+    padding: 0 40px;
+  }
+
+  .itinerary-header__subtitle,
+  .tabs-article__subtitle {
+    font-size: 13px;
+  }
+
+  .itinerary-header__title {
+    font-size: 45px;
+  }
+
+  .tabs-article__image-wrap {
+    padding-top: 55%;
+  }
+
+  .tabs-article__text {
+    padding: 60px 70px;
+  }
+
+  .tabs-article__title {
+    font-size: 36px;
+  }
+
+  .tabs-article__hotel {
+    font-size: 15px;
+  }
+
+  .tabs-article__button-list {
+    margin-top: 75px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .itinerary-content {
+    padding: 0 15px;
+  }
+}
