@@ -96,11 +96,15 @@
     flex-direction: column;
     
 }
-.about-norway__first-box {
-    display: flex;
-    flex-direction: row;
+@media(min-width:768px){
+    .section__1 > .about-norway__first-box {
+        display: flex;
 }
-.section__1-inner {
-    padding-left: 24px;
-    padding-right: 24px;
+.about-norway__first-box {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+
 }
