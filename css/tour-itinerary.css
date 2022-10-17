@@ -30,7 +30,6 @@
 }
 .tour-itinerary__text-container{
     margin-top: 50px;
-    border: solid #fff 2px;
     width: 570px;
 }
 .tour-itinerary__subtitle{
@@ -50,26 +49,50 @@
     margin-top: 25px;
     line-height: 30px;
     letter-spacing: 0.08em;
+    width: 565px;
 }
 .text-container__list{
     display: flex;
     margin-top: 40px;  
 }
-.tour-itinerary__icons{
-    width: 50px;
-    height: 50px;
-    color: var(--text-bold-color);
+.text-container__icons__icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    margin: auto;
+    width: 70px;
+    height: 70px;
     background-color: var(--background-icons-color);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+}
+.tour-itinerary__icons{
+    color: var(--text-bold-color);
+    width: 40px;
+    height: 40px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.text-container__text-list{
+    margin-left: 30px;
+}
+.text-container__text-list__li{
+    margin-bottom: 35px;
 }
 .tour-itinerary__license, .tour-itinerary__guide, .tour-itinerary__satisfaction{
     color: var(--text-color-lightest);
     font-weight: 700px;
     font-size: 21px;
     letter-spacing: 0.07em;
+    line-height: 30px;
 }
 .tour-itinerary__license-text, .tour-itinerary__guide-text, .tour-itinerary__satisfaction-text{
     color: var(--text-color-dark);
     font-weight: 400px;
+    line-height: 25px;
 }
 

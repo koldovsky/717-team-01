@@ -8,7 +8,7 @@
 }
 
 .itinerary-content {
-  padding: 0 24px;
+  padding: 0 24px!important; /*remove important when container fixed */
   min-width: 320px;   /* MOVE TO COMMON */
   max-width: 1200px;    /* MOVE TO COMMON */
   margin: 0 auto;     /* MOVE TO COMMON */
@@ -185,7 +185,7 @@
   }
 
   .itinerary-content {
-    padding: 0 32px;
+    padding: 0 32px!important; /*remove important when container fixed */
   }
 
   .itinerary-header__title {
@@ -228,7 +228,7 @@
   }
 
   .itinerary-content {
-    padding: 0 40px;
+    padding: 0 40px!important; /*remove important when container fixed */
   }
 
   .itinerary-header__subtitle,
@@ -263,6 +263,6 @@
 
 @media (min-width: 1280px) {
   .itinerary-content {
-    padding: 0 15px;
+    padding: 0 15px!important; /*remove important when container fixed */
   }
 }
