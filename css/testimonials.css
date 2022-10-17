@@ -1,0 +1,45 @@
+/*
+Format for testimonials block
+*/
+#testimonials {
+    color: var(--main-text-color);
+    text-align: center;
+}
+
+.testimonials__header__subtitle {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.carousel___person-img {
+    width: 100px;
+    border-style: none;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials__header__title {
+    font-family: "Playfair Display", serif;
+    font-size: 34px;
+
+}
+
+.testimonials__header__intro {
+    font-size: 19px;
+}
+
+.carousel___person {
+    color: var(--text-dark-shade);
+    font-size: 22px;
+}
+
+.carousel___person-text {
+    color: rgb(112, 112, 112);
+    font-size: 17px;
+}
+
+.carousel___person-data {
+    font-weight: 700;
+    font-size: 14px;
+}
