@@ -1,6 +1,8 @@
-.testimonials__header__subtitle {
-    font-size: 12px;
-    color: var(--block-name-light);
-    font-weight: 500;
-    padding: 10px;
+/*
+Format for img
+*/
+.carousel___person-img {
+    width: 100px;
+    border-style: none;
+    border-radius: 50%;
 }
