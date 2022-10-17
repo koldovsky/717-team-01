@@ -49,6 +49,7 @@
     margin-top: 25px;
     line-height: 30px;
     letter-spacing: 0.08em;
+    width: 565px;
 }
 .text-container__list{
     display: flex;
@@ -59,14 +60,17 @@
     height: 50px;
     color: var(--text-bold-color);
     background-color: var(--background-icons-color);
-    margin-bottom: 30px;
+    margin-bottom: 70px;
+}
+.text-container__text-list__li{
+    margin-bottom: 35px;
 }
 .tour-itinerary__license, .tour-itinerary__guide, .tour-itinerary__satisfaction{
     color: var(--text-color-lightest);
     font-weight: 700px;
     font-size: 21px;
     letter-spacing: 0.07em;
-    line-height: 25px;
+    line-height: 30px;
 }
 .tour-itinerary__license-text, .tour-itinerary__guide-text, .tour-itinerary__satisfaction-text{
     color: var(--text-color-dark);
