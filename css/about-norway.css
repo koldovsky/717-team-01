@@ -2,11 +2,12 @@
     background-color: var( --text-color-light);
     padding-top: 90px;
     padding-left: 60px;
+    display: block;
+    
 }
 .about-norway__first-box {
     display: flex;
     padding-right: 25px;
-    display: flex;
     flex-basis: 100%;
     flex-direction: column;
     justify-content: flex-start;
@@ -17,11 +18,89 @@
     vertical-align: baseline;
 }
 .about-norway__box1 {
-    background-size: cover;
-    background-position: 50% 50%;
-    min-height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    object-fit: cover;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-basis: 100%;
+    flex-direction: column;
+   
+    }
+.about-norway__block-text {
+    color: var(--block-name-dark);
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    line-height: 19.2px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.about-norway__block_span {
+    color: var(--color-for-signs);
+}
+.about-norway__subtitle {
+    margin-top: 20px;
+    color: var( --text-dark-shade);
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    height: auto;
+    font-size: 34px;
+    text-align: left;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    letter-spacing: 1.02px;
+    line-height: 40.8px;
+    max-width: 100%;  
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.about-norway__box2 {
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-left: 15px;
+    display: flex;
+    flex-basis: 100%;
+    flex-direction: column;
+
+}
+
+.about-norway__text1 {
+    color: var(--text-dark-shade);
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    padding-left: 25px;
+    padding-right: 25px;
+    letter-spacing: normal;
+    line-height: 32.3px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    text-align: left;
+    margin-top: 25px;
+}
+.about-norway__box3 {
+    margin-top: 50px;
+    color: var(--text-dark-shade);
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 19px;
+    letter-spacing: normal;
+    line-height: 32.3px;
+    overflow-wrap: break-word;
+    vertical-align: baseline;
+    text-align: left;
+    display: flex;
+    flex-basis: 100%;
     flex-direction: column;
     
+}
+.about-norway__first-box {
+    display: flex;
+    flex-direction: row;
+}
+.section__1-inner {
+    padding-left: 24px;
+    padding-right: 24px;
+}
