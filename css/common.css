@@ -41,7 +41,7 @@ ul {
 
 h1 {
   font-family: "Playfair Display", serif;
-  color: #fff;
+  color: var(--text-color-lightest);
   margin-top: 20px;
   font-size: 70px;
   text-align: left;
