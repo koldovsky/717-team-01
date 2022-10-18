@@ -50,9 +50,8 @@
 } */
 
 
-
 .header__menu-item {
-    color: permament;
+    background-color: var(--text-color-darker);
 }
 
 .menu-item__button {
