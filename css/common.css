@@ -49,3 +49,29 @@ h1 {
   font-weight: 600;
   font-stretch: 100%;
 }
+
+@media (min-width: 768px) {
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: var(--text-color-lightest);
+    margin-top: 20px;
+    font-size: 125px;
+    text-align: left;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-stretch: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-family: "Playfair Display", serif;
+    color: var(--text-color-lightest);
+    margin-top: 20px;
+    font-size: 180px;
+    text-align: left;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-stretch: 100%;
+  }
+}
