@@ -300,6 +300,31 @@
     max-width: 100%;
 }
 
+@media (min-width: 768px) {
+    .header__aside-h3 {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: left;
+    position: relative;
+    max-width: 100%;    
+    }
+}
+
+@media (min-width: 992px) {
+    .header__aside-h3 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: left;
+    position: relative;
+    max-width: 100%;    
+    }
+}
+
+
 .header__aside-offer {
     margin-top: 20px;
     font-weight: bold;
@@ -310,18 +335,66 @@
     line-height: 1.6;
 }
 
+@media (min-width: 768px) {
+    .header__aside-offer {
+    margin-top: 20px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    font-size: 12px;
+    max-width: calc(100%-10px);
+    line-height: 1.6;    
+    }
+}
+
+@media (min-width: 992px) {
+    .header__aside-offer {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    font-size: 12px;
+    max-width: calc(100%-10px);
+    line-height: 1.6;    
+    }
+}
+
 .header__aside-offer-discriptions {
     margin-top: 15px;
     font-size: 12px;
+    font-weight: 500;
     text-align: left;
     position: relative;
     color: var(--text-color-light);
 }
 
+@media (min-width: 768px) {
+    .header__aside-offer-discriptions {
+        margin-top: 15px;
+        font-size: 17px;
+        font-weight: 500;
+        text-align: left;
+        position: relative;
+        color: var(--text-color-light);
+    } 
+}
+
+@media (min-width: 992px) {
+    .header__aside-offer-discriptions {
+        margin-top: 15px;
+        font-size: 22px;
+        font-weight: 500;
+        text-align: left;
+        position: relative;
+        color: var(--text-color-light);
+    } 
+}
+
 .header__aside-read {
     margin-top: 35px;
     position: relative;
-    
 }
 
 .header__aside-text{
@@ -330,6 +403,26 @@
     font-size: 14px;
     text-align: left;
     font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .header__aside-text{
+        color: var(--text-color-lightest);
+        text-decoration: none;
+        font-size: 19px;
+        text-align: left;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 992px) {
+    .header__aside-text{
+        color: var(--text-color-lightest);
+        text-decoration: none;
+        font-size: 24px;
+        text-align: left;
+        font-weight: bold;
+    }
 }
 
 /*
