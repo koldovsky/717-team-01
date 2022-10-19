@@ -1,14 +1,23 @@
+.about_us__red-line {
+    color: var(--color-for-signs);
+    font-family: 'Playfair Display', serif;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .about-us {
     display: grid;
     background-color: var(--background-total-light);
     width: 100%;
-    grid-template-columns: 50% 50%;
-    padding-top: 100px;
+    padding-top: 90px;
     padding-bottom: 40px;
-    padding-left: 32px;
-    padding-right: 32px;
-}
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: -15px;
+    }
 
+.about-us p {    
+    font-size: 12px;
+}
 .three-steps {
     background: url(../img/background_about_us.jpg) no-repeat bottom center;
     background-size: cover;
@@ -16,22 +25,51 @@
     text-align: left;
     padding-top: 90px;
     padding-bottom: 400px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
     }
 
 .about-us__subtitle {
-    font-size: 39px;
+    font-size: 34px;
     font-weight: bold;
     font-family: 'Playfair Display', serif;
     color: var(--main-text-color);
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 20px;
-}
-
+    text-align: left;
+    }
 .about-us__ten-days {
     color: var(--text-bold-color);
+    font-size: 34px;
+    }
+
+@media (min-width: 768px) {
+    .about_us__red-line {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .about-us {
+        grid-template-columns: 50% 50%;
+        padding-top: 100px;
+        padding-bottom: 40px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+    .three-steps {
+        padding-left: 40px;
+        padding-right: 40px;
+        }
+     .about-us__subtitle {
+        font-size: 39px;
+        }
+    .about-us__ten-days {
+        font-size: 39px;
+        }
+     .about-us__text {
+        color: var(--main-text-color);
+        line-height: 1.7;
+        }
 }
 
 .about-us__text {
@@ -40,6 +78,7 @@
     line-height: 1.7;
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 60px;
 }
 
 .three-steps__step {
@@ -51,12 +90,7 @@
     margin-right: 15px;
 }
 
-.about_us__red-line {
-    color: var(--color-for-signs);
-    font-family: 'Playfair Display', serif;
-    padding-left: 15px;
-    padding-right: 15px;
-}
+
 
 .name-step {
     font-size: 23px;
