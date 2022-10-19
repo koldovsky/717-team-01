@@ -13,6 +13,10 @@ Format for testimonials block
     justify-content: space-between;
 }
 
+.testimonials__header {
+    padding: 0px 15px 0px 15px;
+} 
+
 .testimonials__header__subtitle {
     font-size: 12px;
     font-weight: 500;
