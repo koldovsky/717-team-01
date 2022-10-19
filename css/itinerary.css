@@ -3,19 +3,21 @@
   padding-bottom: 90px;
   color: var(--main-text-color);
   font-size: 17px;
-    /* background-image: url(../img/background__itinerary.png);
+  /* background-image: url(../img/background__itinerary.png);
     background-size: cover; */
 }
 
 .itinerary-content {
-  padding: 0 24px!important; /*remove important when container fixed */
-  min-width: 320px;   /* MOVE TO COMMON */
-  max-width: 1200px;    /* MOVE TO COMMON */
-  margin: 0 auto;     /* MOVE TO COMMON */
+  margin: 0 auto; /* MOVE TO COMMON */
+  padding: 0 24px !important; /*remove important when container fixed */
+  min-width: 320px; /* MOVE TO COMMON */
+  max-width: 1200px; /* MOVE TO COMMON */
+  font-family: "Roboto", sans-serif;
 }
 
 .itinerary-header__subtitle,
 .tabs-article__subtitle {
+  margin-bottom: 0;
   color: var(--block-name-dark);
   font-size: 12px;
   font-weight: 500;
@@ -25,14 +27,17 @@
 
 .itinerary-header__title {
   margin-top: 20px;
+  margin-bottom: 0;
   font-family: "Playfair Display", serif;
   font-size: 34px;
+  font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.03em;
 }
 
 .itinerary-header__intro {
   margin-top: 25px;
+  margin-bottom: 0;
   font-size: 19px;
   line-height: 1.7;
 }
@@ -46,6 +51,7 @@
 }
 
 .itinerary-tabs__menu {
+  margin-bottom: 0;
   padding: 0 15px;
   display: flex;
   align-items: center;
@@ -103,13 +109,16 @@
 
 .tabs-article__title {
   margin-top: 20px;
+  margin-bottom: 0;
   font-family: "Playfair Display", serif;
   font-size: 30px;
+  font-weight: 700;
   line-height: 1.33;
 }
 
 .tabs-article__duration,
 .tabs-article__hotel {
+  margin-bottom: 0;
   font-weight: 700;
   line-height: 1.6;
 }
@@ -135,6 +144,11 @@
   margin-top: 30px;
   margin-bottom: 5px;
   color: var(--text-color-darker);
+}
+
+.tabs-article__iconlist {
+  padding: 0;
+  margin-bottom: 0px;
 }
 
 .tabs-article__icon {
@@ -185,7 +199,7 @@
   }
 
   .itinerary-content {
-    padding: 0 32px!important; /*remove important when container fixed */
+    padding: 0 32px !important; /*remove important when container fixed */
   }
 
   .itinerary-header__title {
@@ -228,7 +242,7 @@
   }
 
   .itinerary-content {
-    padding: 0 40px!important; /*remove important when container fixed */
+    padding: 0 40px !important; /*remove important when container fixed */
   }
 
   .itinerary-header__subtitle,
@@ -263,6 +277,6 @@
 
 @media (min-width: 1280px) {
   .itinerary-content {
-    padding: 0 15px!important; /*remove important when container fixed */
+    padding: 0 15px !important; /*remove important when container fixed */
   }
 }
