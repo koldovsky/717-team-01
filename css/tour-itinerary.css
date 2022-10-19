@@ -36,7 +36,7 @@
     font-family: 'Playfair Display', serif;
     color: var(--text-color-lightest); 
     font-size: 45px;
-    font-weight: 700px;
+    font-weight: 700;
     margin-top: 20px;
     line-height: 50px;
 }
@@ -77,22 +77,19 @@
     justify-content: center;
     margin: auto;
 }
-.text-container__text-list{
-    margin-left: 30px;
-}
 .text-container__text-list__li{
     margin-bottom: 35px;
 }
 .tour-itinerary__license, .tour-itinerary__guide, .tour-itinerary__satisfaction{
     color: var(--text-color-lightest);
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 21px;
     letter-spacing: 0.07em;
     line-height: 30px;
 }
 .tour-itinerary__license-text, .tour-itinerary__guide-text, .tour-itinerary__satisfaction-text{
     color: var(--text-color-dark);
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 25px;
 }
 
