@@ -9,7 +9,7 @@
     display: flex;
     z-index: 5;
     position: absolute;
-    top: 1600px;
+    top: 2600px;
     gap: 90px;
 }
 .tour-itinerary__map-container{
