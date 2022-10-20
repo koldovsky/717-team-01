@@ -1,8 +1,26 @@
 .header {
-    background-image: url(../img/header_photo.png);
+    background-image: url(../img/header_photo_767px.png);
     background-size: cover;
     background-position: 85% 50%;
     min-width: 320px;
+}
+
+@media (min-width: 768px) {
+    .header {
+        background-image: url(../img/header_photo_991px.png);
+        background-size: cover;
+        background-position: 85% 50%;
+        min-width: 320px;
+    }  
+}
+
+@media (min-width: 992px) {
+    .header {
+        background-image: url(../img/header_photo_1200px.png);
+        background-size: cover;
+        background-position: 85% 50%;
+        min-width: 320px;
+    }  
 }
 
 .header__container {
