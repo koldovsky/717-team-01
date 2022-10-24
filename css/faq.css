@@ -93,21 +93,12 @@
     padding-left: 10px;
 } 
 .accordion-button:focus {
-    border-color: white;
+    border-color: #232428;
     text-decoration-color: var(--header-text-color);
 }
-.figure {
-    position: absolute;
-    border-radius: inherit;
+.faq.img {
+    float: right;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-    font-family: "object-fit:cover";
-    text-align: left;
-}
-.faq__man {
-    width: 600px;
-    height: 400px;
     padding-right: 30px
 }
