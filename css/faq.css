@@ -1,14 +1,13 @@
 .faq__container {
     max-width: 1170px;
-	min-width: 320px;
-	margin: 0 auto;
-	padding: 0 15px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 .faq {
     background-color: #232428;
     padding-top: 90px;
 }
-
 .faq__container {
     display: block;
     padding-left: 15px;
@@ -27,7 +26,7 @@
     font-family: inherit;
 }
 .faq__block__span {
-    color: red;
+    color: rgb(238, 46, 20);
     padding-right: 5px;
 }
 .faq__title__text {
@@ -58,17 +57,44 @@
     padding-left: 15px;
     line-height: 28.9px;
 }
+.accordion-item {
+    position: relative;
+    width: 100%;
+    padding: 20px 0;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+.questions {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 40px;
+}
+
 .accordion__button__collapsed {
-    color: darkgrey;
-    font-size: 17px;
-    font: Roboto, sans-serif;
-    width: 400px;
+    font-weight: 700;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    text-decoration-color: #707070;
+    padding-left: 2px;
+    background-color: #232428;
+    display: flex;
 }
 .accordion__body {
-    color: gray;
-    font-size: 14px;
-    font: Roboto, sans-serif;
-    width: 400px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: start;
+}
+.accordion {
+    text-align: left;
+    justify-content: center;
+    padding-left: 10px;
+} 
+.accordion-button:focus {
+    border-color: white;
+    text-decoration-color: var(--header-text-color);
 }
 .figure {
     position: absolute;
