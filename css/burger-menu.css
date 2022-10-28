@@ -46,7 +46,7 @@
         margin: auto;
     }
 
-    .header__navigatin-burger {
+    /* .header__navigatin-burger {
         display: block;
         position: relative;
         width: 30px;
@@ -122,4 +122,4 @@
     .navigation-wrapper.active {
         top: 0;
     }
-}
+} */
