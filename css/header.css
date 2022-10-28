@@ -47,6 +47,7 @@
     left: 0;
     margin-top: 10px;
     margin-left: 10px;
+    z-index: 10;
 }
 
 .header__logo-name {
