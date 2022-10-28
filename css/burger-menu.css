@@ -33,20 +33,21 @@
     }
 }
 
-@media (min-width 768px) {
+/* @media (min-width 768px) {
     .navigation-wrapper .header__menu-mobilefirst {
         display: none;
     }
-}
+} */
 
-@media (max-width 767px) { 
+/* @media (max-width 767px) { 
     .header__nav {
         display: block;
         max-width: 767px;
         margin: auto;
     }
+} */
 
-    .header__navigatin-burger {
+    /* .header__navigatin-burger {
         display: block;
         position: relative;
         width: 30px;
@@ -122,4 +123,4 @@
     .navigation-wrapper.active {
         top: 0;
     }
-}
+} */
