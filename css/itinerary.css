@@ -64,13 +64,15 @@
   padding: 15px 20px;
 }
 
-.itinerary-tabs__location > a,
+.itinerary-tabs__location > button,
 .tabs-article__description {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
 
-.itinerary-tabs__location > a {
+.itinerary-tabs__location > button {
+  border: none;
+  background: none;
   color: var(--itinerary-menu-text-color);
   text-decoration: none;
   white-space: nowrap;
@@ -93,7 +95,7 @@
   left: 0;
 }
 
-.itinerary-tabs__location > a:hover {
+.itinerary-tabs__location > button:hover {
   color: var(--main-text-color);
 }
 
