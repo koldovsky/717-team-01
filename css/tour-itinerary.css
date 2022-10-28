@@ -92,7 +92,7 @@
     font-weight: 400;
     line-height: 25px;
 }
-@media(max-width:768px){
+@media(max-width: 768px){
     .tour-itinerary__background{
         height: 1200px;
     }
@@ -132,7 +132,8 @@
        margin-bottom: 130px;
     }
 }
-@media(min-width:769px){
+/*
+@media(min-width:768px){
     .tour-itinerary__background{
         height: 1200px;
     }
@@ -160,4 +161,4 @@
     .text-container__icons__icon{
         margin-bottom: 60px;
     }
-}
+}*/
