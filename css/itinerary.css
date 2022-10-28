@@ -60,9 +60,6 @@
   border-bottom: 1px solid var(--itinerary-underline-color);
 }
 
-.itinerary-tabs__location {
-  padding: 15px 20px;
-}
 
 .itinerary-tabs__location > button,
 .tabs-article__description {
@@ -72,11 +69,25 @@
 
 .itinerary-tabs__location > button {
   border: none;
+  padding: 15px 20px;
   background: none;
   color: var(--itinerary-menu-text-color);
   text-decoration: none;
   white-space: nowrap;
   font-weight: 700;
+}
+
+.active-tab {
+  color: var(--main-text-color)!important;
+  border-bottom: 2px solid red!important;
+}
+
+.tabs-article {
+  display: none;
+}
+
+.active-tab__article {
+  display: block;
 }
 
 .tabs-article__image-wrap {
@@ -214,6 +225,10 @@
   }
 
   .tabs-article {
+    display: none;
+  }
+
+  .active-tab__article {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
