@@ -105,10 +105,10 @@
     }
     .tour-itinerary__map-container{
         max-width: 290px;
-        height: 250px;
+        height: 350px;
     }
     .tour-itinerary__map{
-        max-width: 200px;
+        width: 100%;
         margin: auto;
     }
     .tour-itinerary__text-container{
@@ -148,7 +148,7 @@
         width: 740px;
     }
     .tour-itinerary__map{
-        max-width: 420px;
+        width:100%
         margin: auto;
     }
     .tour-itinerary__text-container{
