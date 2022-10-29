@@ -57,6 +57,30 @@
     padding-left: 15px;
     line-height: 28.9px;
 }
+.accordion-button {
+    font-size: inherit;
+}
+
+.accordion-item {
+    border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: #232428;
+    color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(50%);
+}
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+/* @media (max-width: 767px ) {
+    .accordion-button h2 {
+        font-size: calc(.95rem + 1.5vw);
+    }
+} */
 .faq.img {
     vertical-align: right;
     width: 310px;
