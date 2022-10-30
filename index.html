@@ -811,28 +811,67 @@
  		</section>
 		<!--Natalya Bilyak - End FAQ-->
 		<!-- Snizhanna Bushko - CONTACT US - START -->
-		<section class="contact-us" id="contact-form">
-			<div class="contact-us__container">
-				<h2 class="contact-us__title">
-					<span class="divider">━</span> CONTACT US
-				</h2>
-				<h3 class="contact-us__subtitle">
-					Book your journey!
-				</h3>
-				<p class="contact-us__description">
-					Complete the form below, and we will contact you soon to discuss the details!
-				</p>
-				<div class="contact-us__form-container">
-					<form class="contact-us__form" action="https://formspree.io/f/xwkzbzqp" method="POST" id="contacts-form">
-						<input type="text" placeholder="Your Name" required name="client-name">
-						<input type="tel" placeholder="Your Phone" required name="client-phone">
-						<input type="email" placeholder="Your Email" required name="client-email">
-						<input type="text" placeholder="Choose date" onfocus="(this.type='date')">
-						<input type="submit" value="Request a quote" class="contact-us__form-submit-input">
-					</form>
+		<div class="contact-us" id="contact-us">
+			<!-- <div class="center-container"> -->
+			  <div class="contact-us__countdown-container">
+				<p class="discount-caption"><span class="highlighted-text">25%</span> Off only</p>
+				<div class="launch-time">
+				  <div>
+					<p class="days">00</p>
+					<span>Days</span>
+				  </div>
+				  <div>
+					<p class="hours">00</p>
+					<span>Hours</span>
+				  </div>
+				  <div>
+					<p class="minutes">00</p>
+					<span>Minutes</span>
+				  </div>
+				  <div>
+					<p class="seconds">00</p>
+					<span>Seconds</span>
+				  </div>
 				</div>
+			  </div>
+			<div class="contact-us__container">
+			  <h2 class="contact-us__title">
+				<span class="divider">━</span> CONTACT US
+			  </h2>
+			  <h3 class="contact-us__subtitle">Book your journey!</h3>
+			  <p class="contact-us__description">
+				Complete the form below, and we will contact you soon to discuss the
+				details!
+			  </p>
+			  <div class="contact-us__form-container">
+				<form name="form" action="" class="contact-us__form" id="contact-us-form">
+				  <div class="input-group">
+					<input type="text" placeholder="Your Name" name="client-name" class="client-name"
+					  onkeyup="validateName()" />
+					<span id="name-error" class="client-name-error"></span>
+				  </div>
+				  <div class="input-group">
+					<input type="tel" placeholder="Your Phone" name="client-phone" class="client-phone"
+					  onkeyup="validatePhone()" />
+					<span id="phone-error" class="client-phone-error"></span>
+				  </div>
+				  <div class="input-group">
+					<input type="email" placeholder="Your Email" name="client-email" class="client-email"
+					  onkeyup="validateEmail()" />
+					<span id="email-error" class="client-email-error"></span>
+				  </div>
+				  <div class="input-group">
+					<input type="date" id="date" class="date" name="date" id="datePicker" onkeyup="validateDate()">
+					<span id="date-error" class="client-date-error"></span>
+				  </div>
+				  <input type="submit" value="Request a quote" class="contact-us__form-submit-input"
+					onclick="return validateForm()" />
+				  <span id="submit-error" class="submit-error"></span>
+				</form>
+			  </div>
 			</div>
-		</section>
+			<!-- </div> -->
+		  </div>
 		<!-- CONTACT US - END -->
 		<!-- Irina Borisenko - Start "Testimonials"-->
 		<section class="testimonials" id="testimonials">
