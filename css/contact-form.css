@@ -100,7 +100,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: var(--text-color-lightest);
     color: black;
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .divider {
