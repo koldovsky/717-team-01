@@ -1,4 +1,3 @@
-//IIFE
 (function() {
 
 const products = [

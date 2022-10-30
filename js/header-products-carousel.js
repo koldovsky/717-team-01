@@ -1,30 +1,29 @@
-//IIFFE
 (function (){
 
     const slides = [
-        '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_bodo.jpeg" alt="Norway Bodo"></div>',
-        '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_lofoten.jpeg" alt="Norway Lofoten"></div>',
-        '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_oslo.jpeg" alt="Norway Oslo"></div>',
-        '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_tromso.jpeg" alt="Norway Tromso"></div>',
-        '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_trondheim.jpeg" alt="Norway Trondheim"></div>'
+    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_bodo.jpeg" alt="Norway Bodo"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_lofoten.jpeg" alt="Norway Lofoten"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_oslo.jpeg" alt="Norway Oslo"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_tromso.jpeg" alt="Norway Tromso"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_trondheim.jpeg" alt="Norway Trondheim"></div>'
     ];
     let currentSlideIdx = 0;
     function renderSlide() {
-        const slideContainer = document.querySelector('.header__products-carousel-slide-container');
-        slideContainer.innerHTML = slides[currentSlideIdx];
+    const slideContainer = document.querySelector('.header__products-carousel-slide-container');
+    slideContainer.innerHTML = slides[currentSlideIdx];
     }
     function nextSlide() {
-        currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
-        renderSlide();
+    currentSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
+    renderSlide();
     }
     function prevSlide() {
-        currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
-        renderSlide();
-    }
- //   setInterval(nextSlide, 1000);
+    currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
     renderSlide();
-    const nextButton = document.querySelector('.header__products-carousel-next');
-    nextButton = addEventListener('click', nextSlide);
-    const prevButton = document.querySelector('.header__products-carousel-prev');
-    prevButton = addEventListener('click', prevSlide);
+    }
+    setInterval(nextSlide, 4500);
+    renderSlide();
+    //const nextButton = document.querySelector('.header__products-carousel-next');
+    //nextButton = addEventListener('click', nextSlide);
+    //const prevButton = document.querySelector('.header__products-carousel-prev');
+    //prevButton = addEventListener('click', prevSlide);
 })(); 
