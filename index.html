@@ -844,28 +844,28 @@
 				details!
 			  </p>
 			  <div class="contact-us__form-container">
-				<form name="form" action="" class="contact-us__form" id="contact-us-form">
+				<form name="form" action="/" class="contact-us__form" id="contact-us-form">
 				  <div class="input-group">
 					<input type="text" placeholder="Your Name" name="client-name" class="client-name"
-					  onkeyup="validateName()" />
+					  onkeyup="validateName()">
 					<span id="name-error" class="client-name-error"></span>
 				  </div>
 				  <div class="input-group">
 					<input type="tel" placeholder="Your Phone" name="client-phone" class="client-phone"
-					  onkeyup="validatePhone()" />
+					  onkeyup="validatePhone()">
 					<span id="phone-error" class="client-phone-error"></span>
 				  </div>
 				  <div class="input-group">
 					<input type="email" placeholder="Your Email" name="client-email" class="client-email"
-					  onkeyup="validateEmail()" />
+					  onkeyup="validateEmail()">
 					<span id="email-error" class="client-email-error"></span>
 				  </div>
 				  <div class="input-group">
-					<input type="date" id="date" class="date" name="date" id="datePicker" onkeyup="validateDate()">
+					<input type="date" class="date" name="date" id="datePicker" onkeyup="validateDate()">
 					<span id="date-error" class="client-date-error"></span>
 				  </div>
 				  <input type="submit" value="Request a quote" class="contact-us__form-submit-input"
-					onclick="return validateForm()" />
+					onclick="return validateForm()">
 				  <span id="submit-error" class="submit-error"></span>
 				</form>
 			  </div>
