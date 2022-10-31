@@ -21,6 +21,12 @@
     margin: auto;
 }
 
+.contact-us__caption {
+    font-size: 60px;
+    font-family: "Playfair Dispay", serif;
+    color: #232428;
+}
+
 .contact-us__countdown-container {
     min-width: 80%;
     height: 300px;
@@ -34,6 +40,7 @@
     align-items: center;
     justify-content: center;
     color: var(--text-color-lightest);
+    font-family: "Playfair Dispay", serif;
 }
 
 .discount-caption {
@@ -60,7 +67,7 @@
 }
 
 .highlighted-text {
-    color: #ee2d14db;
+    color: var(--color-for-signs);
 }
 
 input {
@@ -130,7 +137,7 @@ input[type="submit"]:hover {
 }
 
 .input-group span {
-    color: rgb(213, 61, 61);
+    color: var(--color-for-signs);
     position: absolute;
     bottom: 25px;
     right: 17px;
@@ -138,7 +145,7 @@ input[type="submit"]:hover {
 }
 
 .red-border {
-    border: 1px solid red;
+    border: 1px solid var(--color-for-signs);
 }
 
 .green-border {
@@ -163,13 +170,18 @@ input[type="submit"]:hover {
 
 
 #submit-error {
-    color: red;
+    color: var(--color-for-signs);
 }
 
 @media (min-width: 992px) {
     /* .contact-us {
         display: flex;
     } */
+
+    .contact-us__caption {
+        margin-top: -600px;
+        text-align: center;
+    }
 
     .contact-us {
         display: grid;
@@ -179,6 +191,12 @@ input[type="submit"]:hover {
     .contact-us__container {
         width: 80%;
         max-height: 730px;
+        order: 1;
+    }
+
+    .contact-us__countdown-container {
+        margin-top: -700px;
+        order: 2;
     }
 
     .contact-us__subtitle {
