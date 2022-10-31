@@ -209,6 +209,8 @@
 @media (min-width: 768px) {
   .itinerary {
     padding-bottom: 110px;
+    background: url(../img/background__itinerary.png);
+    background-size: cover;
   }
 
   .itinerary-content {
