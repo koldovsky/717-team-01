@@ -9,7 +9,6 @@
   padding-top: 90px;
 }
 
-
 .stunnigd__block {
     display: block;
     padding-left: 15px;
@@ -72,12 +71,6 @@
 .stunnigd__container-item {
   display: flex;
   flex-direction: row;
-}
-.container__img {
-  width: 305px;
-  height: 340px;
-  padding-right: 30px;
-
 }
 
 .stunnigd__container-img {
