@@ -72,7 +72,7 @@
     background-color: var(--text-color-darker);
 }
 
-.menu-item__button {
+.header__menu-item-button {
     display: inline-block;
     vertical-align: middle;
     text-align: left;
@@ -81,22 +81,23 @@
     font-weight: 700;
     word-wrap: break-word;
     margin-top: 10px;
+    padding: 0 10px;
     border-width: 2px;
     border: 2px;
     border-color: var(--text-color-lightest);
 }
 
-.menu-item__button:hover {
+.header__menu-item-button:hover {
     background-color: var(--text-color-dark);
 }
 
 
-.button {
+/* .button {
     display: block;
     border-width: 2px;
     border: 2px;
     border-color: var(--text-color-lightest);
-}
+} */
 
 .header__baner {
     margin: 90px 24px;
@@ -505,80 +506,3 @@
     }
 }
 
-/*
-@media (max-width: 992px) {
-     .header__menu {
-        display: block;
-
-        max-width: 380px;
-        margin: auto;
-
-    .header__menu {
-        display: flex;
-        flex-direction: column;
-        max-width: 332px;
-        margin: auto;
-        }
-
-        .header__logo-container {
-            max-width: 114px;
-        }
-    } 
-    body {
-        overflow: hidden;
-    }
-
-    header__logo-container {
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 30px 0;
-        z-index: 10;
-    }
-
-    .header__nav-burger-menu {
-    display: block;
-    position: relative;
-    width: 30px;
-    height: 20px;
-    padding: 12px;
-    cursor: pointer;
-    z-index: 5;
-}
-
-.header__burger-menu span,
-.header__burger-menu::before,
-.header__burger-menu::after {
-  position: absolute;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  transition: all 0.5s ease-in-out;
-}
-
-.header__burger-menu span {
-    transform: scale(1); 
-}
-
-.header__burger-menu::before,
-.header__burger-menu::after {
-    content: " ";
-}
-
-.header__burger-menu::before {
-    top: 0;
-}
-
-.header__burger-menu::after {
-    bottom: 0;
-}
-
-.header__burger-menu.active span {
-    transform: scale(0);
-}
-}*/
