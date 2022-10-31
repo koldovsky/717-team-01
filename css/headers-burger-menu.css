@@ -97,15 +97,30 @@
 
     .navigation-pages a:hover {
         color: var(--button-black-color);
-      }
+    }
+
+    .header__menu-item {
+        text-decoration: none;
+        color: var(--text-color-lightest);
+        background-color: var(--text-color-darker);
+    
+    }
+
+    .header__menu-item {
+        text-decoration: none;
+        color: var(--text-color-lightest);
+        background-color: var(--text-color-darker);
+    
+    }
 
 }
 
 @media (min-width 768px) {
-    .header__navigatin-burger
-    .navigation-wrapper
-    .navigation-pages
-    .navigation__link {
+    .header__navigatin-burger,
+    .navigation-wrapper,
+    .navigation-pages,
+    .navigation__link,
+    .header__menu-item {
         display: none;
     }
     .header__menu-desktop {
@@ -115,6 +130,7 @@
         align-items: center;
         justify-content: center;
     }
+    
 }
 
 /* Botstrap menu: */
@@ -147,7 +163,14 @@
 
 
 @media (min-width: 768px) {
-    .dropdown .btn .btn-secondary .dropdown-toggle .dropdown-menu .header__menu-item .dropdown-item .menu-item__button {
+    .dropdown, 
+    .btn, 
+    .btn-secondary, 
+    .dropdown-toggle, 
+    .dropdown-menu, 
+    .header__menu-item, 
+    .dropdown-item, 
+    .menu-item__button {
         display: none;
     }
 }
