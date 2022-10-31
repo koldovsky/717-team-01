@@ -1,5 +1,7 @@
 (function () {
     const countDownDate = new Date("Dec 24, 2022 00:00:00").getTime();
+    const contactUsCaption = document.querySelector(".contact-us__caption");
+    contactUsCaption.innerText = "Join Us Right Now!"
 
     function getTime() {
         let currentTime = new Date().getTime();
