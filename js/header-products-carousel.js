@@ -1,11 +1,11 @@
 (function (){
 
     const slides = [
-    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_bodo.jpeg" alt="Norway Bodo"></div>',
-    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_lofoten.jpeg" alt="Norway Lofoten"></div>',
-    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_oslo.jpeg" alt="Norway Oslo"></div>',
-    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_tromso.jpeg" alt="Norway Tromso"></div>',
-    '<div class="header__slide"><img class="header__slide" src="img/itinerary-location_trondheim.jpeg" alt="Norway Trondheim"></div>'
+    '<div class="header__slide"><img class="header__slide" src="img/header_carousel-bodo.jpeg" alt="Norway Bodo"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/header_carousel-lafoten.jpeg" alt="Norway Lofoten"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/header_carousel-oslo.jpeg" alt="Norway Oslo"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/header_carousel-tromso.jpeg" alt="Norway Tromso"></div>',
+    '<div class="header__slide"><img class="header__slide" src="img/header_carousel-trondheim.jpeg" alt="Norway Trondheim"></div>'
     ];
     let currentSlideIdx = 0;
     function renderSlide() {

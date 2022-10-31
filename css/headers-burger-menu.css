@@ -42,8 +42,6 @@
         width: 30px;
         height: 20px; 
         right: -85px;
-        /* height: 20px; */
-        /* width: 30px; */
         padding: 5px;
         cursor: pointer;
         z-index: 5;
@@ -116,6 +114,7 @@
       .header__nav 
       .navigation-wrapper.active {
         top: 0;
+
     }
     
       .header__nav.active {
@@ -134,6 +133,9 @@
         height: auto;
         z-index: 10;
         padding-top: 100px;
+
+        /* position: relative;
+        right: 80px; */
     }
 
     .navigation-pages a:hover {

@@ -50,6 +50,12 @@
     z-index: 10;
 }
 
+.header__logo {
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
 .header__logo-name {
     font-family: "Playfair Display", serif;
     font-weight: 600;
