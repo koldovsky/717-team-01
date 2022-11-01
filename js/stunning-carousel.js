@@ -28,7 +28,7 @@
         currentSlideIdx = currentSlideIdx - 1 < 0 ? slides.length - 1 : currentSlideIdx - 1;
         renderSlide();
     }
-    setInterval(nextSlide, 5000);
+    //setInterval(nextSlide, 5000);
     renderSlide();
     const nextBtn = document.querySelector('.products-carousel__next');
     nextBtn.addEventListener('click', nextSlide);
