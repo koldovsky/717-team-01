@@ -11,10 +11,10 @@
     function renderSlide() {
         const slideContainer = document.querySelector('.products-carousel__slide-container');
         slideContainer.innerHTML = slides[currentSlideIdx];
-        if (window.innerWidth > 480) {
+        if (window.innerWidth > 767) {
             const secondSlideIdx = currentSlideIdx + 1 >= slides.length ? 0 : currentSlideIdx + 1;
             slideContainer.innerHTML += slides[secondSlideIdx];
-            if (window.innerWidth > 900) {
+            if (window.innerWidth > 990) {
                 const thirdSlideIdx = secondSlideIdx + 1 >= slides.length ? 0 : secondSlideIdx + 1;
                 slideContainer.innerHTML += slides[thirdSlideIdx];
             }

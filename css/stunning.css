@@ -16,13 +16,42 @@
 }
 .stunnigd__title {
     padding-left: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 34px;
     font-family: "Playfair Display",serif;
 }
+@media (min-width: 410px) {
+  .stunnigd__title {
+    display: flex;
+  }
+  .stunnigd__title-span {
+    padding-left: 10px;
+  }
+  .stunnigd__paragraph-text {
+    width: 430px;
+  }
+  .stunnigd_writer-text {
+    width: 336px;
+    margin: auto;
+  }
+  
+}
+@media (min-width: 900px) {
+  .stunnigd__paragraph-text {
+    width: 760px;
+  }
+  .stunnigd_writer-text {
+    width: 650px;
+    margin: auto;
+  }
+  ..stunnigd__line-bottom {
+    width: 600px;
+  }
+}
+
 .stunnigd__block-text {
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 500;
     color: var(--block-name-light);
     font-family: inherit;
   
@@ -34,6 +63,7 @@
 .stunnigd__title-text {
     color: var(--text-color-lightest);
     font-size: 34px;
+    font-weight: bold;
     font-family: "Playfair Display",serif;
     vertical-align: baseline;
     text-align: left;
@@ -49,7 +79,7 @@
 .stunnigd__paragraph {
     display: flex;
     flex-direction: column;
-    margin-top: 60px;
+    margin-top: 40px;
     padding-right: 15px;
     
 }
@@ -72,19 +102,36 @@
   display: flex;
   flex-direction: row;
 }
+.slide {
+  height: 322px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+
+}
 
 .products-carousel {
   display: flex;
   justify-content: center;
+  height: 322px;
+
 }
 
 .products-carousel__slide-container {
   display: flex;
+  
 }
+.products-carousel__prev, .products-carousel__next {
+  border-radius: 100%;
+  margin: auto;
+  width: 40px;
+  height: 40px;
+  background-color: white;
 
+}
 .stunnigd__line-top {
   background-color: var(--block-name-light);
-  height: 1px;
+  height: 0.5px;
   width: 410px;
   margin-top: 25px;
 }
@@ -92,11 +139,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 20px;
 }
 .stunnigd_writer {
-  margin-top: 50px;
-  padding-top: 50px;
+  margin-top: 30px;
   padding: 25px 25px;
   justify-content: center;
 }
@@ -115,12 +161,12 @@
   font-size:17px;
   margin-top: 30px;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 90px;
+  padding-bottom: 30px;
 }
 .stunnigd__line-bottom {
   margin: auto;
   background-color: var(--block-name-light);
-  height: 1px;
+  height: 0.5px;
   display: flex;
   justify-content: center;
 }
