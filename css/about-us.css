@@ -12,21 +12,28 @@
     padding-bottom: 40px;
     padding-left: 24px;
     padding-right: 24px;
-    margin: -15px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+    .about-us p {    
+    font-size: 12px;
     }
 
-.about-us p {    
-    font-size: 12px;
-}
-.three-steps {
+.three-steps__background {
     background: url(../img/background_about_us.jpg) no-repeat bottom center;
     background-size: cover;
+    display: flex;
+}
+.three-steps {
     display: flex;
     text-align: left;
     padding-top: 90px;
     padding-bottom: 400px;
     padding-left: 24px;
     padding-right: 24px;
+    max-width: 1200px;
+    margin: auto;
     }
 
 .about-us__subtitle {
@@ -71,7 +78,26 @@
         line-height: 1.7;
         }
 }
-
+@media (min-width: 992px) {
+        .about-us p {
+            font-size: 13px;
+            letter-spacing: .03em;
+            line-height: 1.6;
+        }
+    
+        .about-us__subtitle {
+            font-size: 45px;
+            font-weight: 700;
+            letter-spacing: .03em;
+        }
+    
+        .name-step {
+            font-size: 24px;
+        }
+        .description-step {
+            font-size: 15px;
+        }
+}
 .about-us__text {
     color: var(--main-text-color);
     font-size: 19px;
