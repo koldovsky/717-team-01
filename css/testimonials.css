@@ -16,7 +16,7 @@ Format for testimonials block
 
 .testimonials__header {
     padding: 0px 15px 0px 15px;
-} 
+}
 
 .testimonials__header__subtitle {
     font-size: 12px;
@@ -45,9 +45,10 @@ Format for testimonials block
 .testimonials__header__title {
     font-family: "Playfair Display", serif;
     font-size: 34px;
+    font-weight: 700;
     padding: 0 10px;
     margin-top: 50px;
-	  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .carousel___person {
@@ -68,5 +69,5 @@ Format for testimonials block
     font-size: 14px;
     line-height: 22.4px;
     margin-top: 50px;
-	  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
