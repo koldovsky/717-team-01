@@ -32,6 +32,11 @@ Format for testimonials block
     margin-right: auto;
 }
 
+.testimonials__carousel {
+    display: flex;
+    justify-content: center;
+}
+
 .carousel___person-img {
     width: 120px;
     height: 120px;
@@ -70,4 +75,33 @@ Format for testimonials block
     line-height: 22.4px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.testimonials__carousel__button-prev,
+.testimonials__carousel__button-next {
+    cursor: pointer;
+    position: absolute;
+    /*  margin-top: 22px;*/
+    /*  padding: 16;*/
+    line-height: 46px;
+    box-sizing: border-box;
+    width: 46px;
+    height: 46px;
+    vertical-align: middle;
+    font-size: 23px;
+    transition: 0.2s ease;
+    border-radius: 50%;
+}
+
+.testimonials__carousel__button-next {
+    right: 20px;
+}
+
+.testimonials__carousel__button-prev {
+    left: 20px;
+}
+
+.testimonials__carousel__button-prev:hover,
+.testimonials__carousel__button-next:hover {
+    background-color: rgba(0, 0, 0, 0.1);
 }
