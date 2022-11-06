@@ -296,7 +296,8 @@ h3 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin: 0;
+    padding-left: 45px;
+    padding-right: 5px;
     overflow: hidden;
     height: 100hv;
 }
