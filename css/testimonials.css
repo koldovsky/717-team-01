@@ -32,7 +32,7 @@ Format for testimonials block
     margin-right: auto;
 }
 
-.testimonials__carousel {
+#testimonials__carousel {
     display: flex;
     justify-content: center;
 }
@@ -81,8 +81,6 @@ Format for testimonials block
 .testimonials__carousel__button-next {
     cursor: pointer;
     position: absolute;
-    /*  margin-top: 22px;*/
-    /*  padding: 16;*/
     line-height: 46px;
     box-sizing: border-box;
     width: 46px;
