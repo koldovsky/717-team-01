@@ -121,6 +121,7 @@
 }
 
 .tabs-article__title {
+  min-width: 0;
   margin-top: 20px;
   margin-bottom: 0;
   font-family: "Playfair Display", serif;
