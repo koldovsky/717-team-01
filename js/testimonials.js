@@ -25,6 +25,13 @@
             dataTestimonials: "January 12, 2022"
         },
     ];
+    function renderPointTestimonials() {
+        for (let i = 0; i < testimonials.length; i++) {
+            const pointOne = document.querySelector('.pointTestimonials');
+            pointOne.innerHTML += `<span class="dotTestimonials"></span>`;
+        }
+    }
+    renderPointTestimonials();
     let currentSlideTestimonialIdx = 0;
     function renderSlideTestimonials() {
         const slideContainerTestimonials = document.querySelector('.testimonials__carousel-slide');
@@ -35,6 +42,7 @@
                         <p class="carousel__person-text">${testimonials[currentSlideTestimonialIdx].textTestimonials}</p>
                       <p class="carousel__person-data">${testimonials[currentSlideTestimonialIdx].dataTestimonials}</p>
                  </article>`;
+        activePointTestimonials();
     }
     function nextSlideTestimonials() {
         currentSlideTestimonialIdx = currentSlideTestimonialIdx + 1 >= testimonials.length ? 0 : currentSlideTestimonialIdx + 1;
@@ -49,4 +57,11 @@
     nextBtnTestimonial.addEventListener('click', nextSlideTestimonials);
     const prevBtnTestimonial = document.querySelector('.testimonials__carousel__button-prev');
     prevBtnTestimonial.addEventListener('click', prevSlideTestimonials);
+    function activePointTestimonials() {
+        const activeDotTestimonials = document.getElementsByClassName("dotTestimonials");
+        for (let i = 0; i < testimonials.length; i++) {
+            activeDotTestimonials[i].className = activeDotTestimonials[i].className.replace(" active", "");
+        }
+        activeDotTestimonials[currentSlideTestimonialIdx].className += " active";
+    }
 })();
