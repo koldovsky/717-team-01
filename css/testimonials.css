@@ -103,3 +103,20 @@ Format for testimonials block
 .testimonials__carousel__button-next:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
+
+.dotTestimonials {
+    cursor: pointer;
+    text-align: center;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+    background-color: #bdf;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;  
+  }
+  
+  .active,
+  .dotTestimonials:hover {
+    background-color: var(--main-input-color);
+  }
