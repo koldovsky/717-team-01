@@ -25,36 +25,23 @@
             dataTestimonials: "January 12, 2022"
         },
     ];
-       function renderTestimonials(testimonials) {
-           const testimonialsContainer = document.querySelector('.testimonials__carousel-slide');
-           testimonialsContainer.innerHTML = '';
-           for (const oneTestimonial of testimonials) {
-               testimonialsContainer.innerHTML += `
-           <article class="carousel__person">
-                         <img src="${oneTestimonial.imageTestimonials}" class="carousel___person-img" alt="${oneTestimonial.imageNameTestimonials}">
-                         <h4 class="carousel___person">${oneTestimonial.nameTestimonials}</h4>
-                         <p class="carousel___person-text">${oneTestimonial.textTestimonials}</p>
-                         <p class="carousel___person-data">${oneTestimonial.dataTestimonials}</p>
-                     </article>`;
-           }
-       }
-       renderTestimonials(testimonials);
-    const slides = [
-        '<article class="carousel__person"><img src="img/testimonials__carousel/img-cole-tiers.png" class="carousel___person-img" alt = "Image Cole Tiers" ></article >',
-        '<article class="carousel__person"><img src="img/testimonials__carousel/img-lilland-forester.png" class="carousel___person-img" alt = "Photo Lilland Forester" ></article >',
-        '<article class="carousel__person"><img src="img/testimonials__carousel/img-alice-hendricks.jpg" class="carousel___person-img" alt = "Photo Alice Hendricks" ></article >',
-    ];
     let currentSlideTestimonialIdx = 0;
     function renderSlideTestimonials() {
-        const slideContainer = document.querySelector('.testimonials__carousel-slide');
-        slideContainer.innerHTML = slides[currentSlideTestimonialIdx];
+        const slideContainerTestimonials = document.querySelector('.testimonials__carousel-slide');
+        slideContainerTestimonials.innerHTML = `
+        <article class="carousel__person">
+                                <img src="${testimonials[currentSlideTestimonialIdx].imageTestimonials}" class="carousel__person-img" alt="${testimonials[currentSlideTestimonialIdx].imageNameTestimonials}">
+                        <h4 class="carousel__person">${testimonials[currentSlideTestimonialIdx].nameTestimonials}</h4>
+                        <p class="carousel__person-text">${testimonials[currentSlideTestimonialIdx].textTestimonials}</p>
+                      <p class="carousel__person-data">${testimonials[currentSlideTestimonialIdx].dataTestimonials}</p>
+                 </article>`;
     }
     function nextSlideTestimonials() {
-        currentSlideTestimonialIdx = currentSlideTestimonialIdx + 1 >= slides.length ? 0 : currentSlideTestimonialIdx + 1;
+        currentSlideTestimonialIdx = currentSlideTestimonialIdx + 1 >= testimonials.length ? 0 : currentSlideTestimonialIdx + 1;
         renderSlideTestimonials();
     }
     function prevSlideTestimonials() {
-        currentSlideTestimonialIdx = currentSlideTestimonialIdx - 1 < 0 ? slides.length - 1 : currentSlideTestimonialIdx - 1;
+        currentSlideTestimonialIdx = currentSlideTestimonialIdx - 1 < 0 ? testimonials.length - 1 : currentSlideTestimonialIdx - 1;
         renderSlideTestimonials();
     }
     renderSlideTestimonials();

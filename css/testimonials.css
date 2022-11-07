@@ -32,12 +32,12 @@ Format for testimonials block
     margin-right: auto;
 }
 
-.testimonials__carousel {
+#testimonials__carousel {
     display: flex;
     justify-content: center;
 }
 
-.carousel___person-img {
+.carousel__person-img {
     width: 120px;
     height: 120px;
     object-fit: cover;
@@ -56,20 +56,20 @@ Format for testimonials block
     margin-bottom: 50px;
 }
 
-.carousel___person {
+.carousel__person {
     color: var(--text-dark-shade);
     font-size: 22px;
     line-height: 32.2px;
     margin-top: 30px;
 }
 
-.carousel___person-text {
+.carousel__person-text {
     color: rgb(112, 112, 112);
     font-size: 17px;
     line-height: 28.9px;
 }
 
-.carousel___person-data {
+.carousel__person-data {
     font-weight: 700;
     font-size: 14px;
     line-height: 22.4px;
@@ -81,8 +81,6 @@ Format for testimonials block
 .testimonials__carousel__button-next {
     cursor: pointer;
     position: absolute;
-    /*  margin-top: 22px;*/
-    /*  padding: 16;*/
     line-height: 46px;
     box-sizing: border-box;
     width: 46px;
