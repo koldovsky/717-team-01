@@ -1,40 +1,29 @@
-(function(){
-
-    const questionsList = [
-        {
-            header: "Does this tour require physical fitness?",
-            answer: "This tour is suitable for untrained tourists. No cliff climbing, we promise."
-        },
-        {
-            header: "Will I be able to see the Northern Lights?",
-            answer: "We cannot promise you this. The Northern Lights only appear in winter under special circumstances. But we will hunt it in Tromsø."
-        },
-        {
-            header: "Can I take my children with me on the tour?",
-            answer: "Yes, we offer a 50% discount for children."
-        },
-        {
-            header: "Can I join you not in Oslo, but in another city?",
-            answer: "Depending on the weather conditions, our route may change, so we strongly recommend starting with other tourists from Oslo. We do not change the route to pick up tourists on the way."
-        }
-    ];
-
-    function render(){
-        const questions = document.querySelector('.questions__list');
-        for (const question of questionsList){
-            questions.innerHTML += `
-                <div class="questions__item">
-                    <button class="questions__header">${question.header}</button>
-                    <span class="questions__answer">${question.answer}</span>
-                </div>
-            `; 
-        }
-        const questionHeaders = document.querySelectorAll('.questions__header');
-        for (const questionHeader of questionHeaders){
-            questionHeader.addEventListener('click', ({ target }) => {
-                target.classList.toggle('active');
-            });
-        }
-    }
-    render();
-})();
+$(document).ready(function(){
+    $(".set > a").on("click", function(){
+      if($(this).hasClass('active')){
+        $(this).removeClass("active");
+        $(this).siblings('.content').slideUp(200);
+        $(".set > a span").removeClass("minus").addClass("plus");
+      }else{
+        $(".set > a span").removeClass("minus").addClass("plus");
+        $(this).find("span").removeClass("plus").addClass("minus");
+        $(".set > a").removeClass("active");
+        $(this).addClass("active");
+        $('.content').slideUp(200);
+        $(this).siblings('.content').slideDown(200);
+      }    
+    });
+  });
+  
+  // var parentTitleAcc = document.querySelector('.sn-accordion-container');
+  // var titleAcc = document.querySelector('.sn-accordion-container a');
+  
+  // titleAcc.onclick = function (e) {
+  // 	e.preventDefault();
+  //   var target = e.target;
+    
+  //   if (traget.titleAcc != 'a') return;
+    
+  //   highlight(target); // подсветить TD
+  // };
+  
