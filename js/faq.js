@@ -3,19 +3,19 @@
   const questionsList = [
       {
           header: "Does this tour require physical fitness?",
-          answer: "This tour is suitable for untrained tourists. No cliff climbing, we promise."
+          answers: "This tour is suitable for untrained tourists. No cliff climbing, we promise."
       },
       {
           header: "Will I be able to see the Northern Lights?",
-          answer: "We cannot promise you this. The Northern Lights only appear in winter under special circumstances. But we will hunt it in Tromsø."
+          answers: "We cannot promise you this. The Northern Lights only appear in winter under special circumstances. But we will hunt it in Tromsø."
       },
       {
           header: "Can I take my children with me on the tour?",
-          answer: "Yes, we offer a 50% discount for children."
+          answers: "Yes, we offer a 50% discount for children."
       },
       {
           header: "Can I join you not in Oslo, but in another city?",
-          answer: "Depending on the weather conditions, our route may change, so we strongly recommend starting with other tourists from Oslo. We do not change the route to pick up tourists on the way."
+          answers: "Depending on the weather conditions, our route may change, so we strongly recommend starting with other tourists from Oslo. We do not change the route to pick up tourists on the way."
       }
   ];
 
@@ -25,7 +25,7 @@
           questions.innerHTML += `
               <div class="questions__item">
                   <button class="questions__header">${question.header}</button>
-                  <span class="questions__answer">${question.answer}</span>
+                  <span class="questions__answers">${question.answers}</span>
               </div>
           `; 
       }
