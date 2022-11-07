@@ -1,4 +1,4 @@
-faq__container {
+.faq__container {
   max-width: 1170px;
   min-width: 320px;
   margin: 0 auto;
@@ -8,10 +8,9 @@ faq__container {
   background-color: #232428;
   padding-top: 90px;
 }
-.faq__container {
+.faq__block {
   display: block;
   padding-left: 15px;
-
 }
 .faq__block__title {
   padding-left: 15px;
@@ -23,20 +22,18 @@ faq__container {
 .faq__block__title {
   display: flex;
 }
-.faq__block__title__span {
+.faq__title__span {
   padding-left: 10px;
 }
 .faq_paragraph__text {
   width: 430px;
 }
 } 
-
 @media (min-width: 900px) {
 .faq__paragraph__text {
   width: 760px;
 }
 }
-
 .faq__block__text {
   font-size: 12px;
   font-weight: 500;
@@ -48,7 +45,7 @@ faq__container {
   color: red;
   padding-right: 5px;
 }
-.faq__block__title__text {
+.faq__title__text {
   color: var(--text-color-lightest);
   font-size: 34px;
   font-weight: bold;
@@ -56,7 +53,7 @@ faq__container {
   vertical-align: baseline;
   text-align: left;
 }
-.faq__block__title__span {
+.faq__title__span {
   color: var(--main-text-color);
   font-size: 34px;
   font-family: "Playfair Display",serif;
@@ -71,7 +68,7 @@ faq__container {
   padding-right: 15px;
   
 }
-.faq_paragraph__text {
+.faq__paragraph__text {
   color: var(--block-name-light);
   font-size: 17px;
   font-family: "Roboto" sans-serif;
@@ -102,13 +99,27 @@ faq__container {
   height: auto;
   background-color: var(--background-color);
 }
+.content{
+  position:relative;
+  width: 100%;
+  font-size: 18px;
+  height: auto;
+  background-color: var(--background-color);
+  border-bottom: 1px solid #a9a9a9 ;
+  display:none;
+}
+.content p{
+  padding: 20;
+  margin: 0;
+  color:var (--text-color-dark);
+}
 
 .set > a{
   display: block;
-  padding: 25px 20px 25px 30px;
+  padding: 20px;
   text-decoration: none;
   color: var(--text-color-lightest);
-  font-weight: 600;
+  font-weight: 100;
   font-size: 20px;
   border-bottom: 1px solid #a9a9a9;
   -webkit-transition:all 0.2s linear;
@@ -192,18 +203,13 @@ faq__container {
   transition: 200ms ease;
   transform: rotate(45deg);
 }
+.faq__img-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+} 
 
-.content{
-  position:relative;
+.faq-img{
   width: 100%;
-  font-size: 18px;
-  height: auto;
-  background-color: var(--background-color);
-  border-bottom: 1px solid #a9a9a9 ;
-  display:none;
-}
-.content p{
-  padding: 25px 30px;
-  margin: 0;
-  color:var (--text-color-dark);
 }
