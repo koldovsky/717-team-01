@@ -8,14 +8,12 @@ Format for testimonials block
 }
 
 .testimonials__container {
+    margin-left: auto;
+    margin-right: auto;
     color: var(--main-text-color);
     text-align: center;
     max-width: 1000px;
     min-width: 280px;
-    margin: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
     justify-content: center;
 }
@@ -110,6 +108,10 @@ Format for testimonials block
     background-color: rgba(0, 0, 0, 0.1);
 }
 
+.pointTestimonials {
+    padding: 0px 0px 50px 0px;
+}
+
 .dotTestimonials {
     cursor: pointer;
     text-align: center;
@@ -119,10 +121,10 @@ Format for testimonials block
     background-color: #bdf;
     border-radius: 50%;
     display: inline-block;
-    transition: background-color 0.2s ease;  
-  }
-  
-  .active,
-  .dotTestimonials:hover {
+    transition: background-color 0.2s ease;
+}
+
+.active,
+.dotTestimonials:hover {
     background-color: var(--main-input-color);
-  }
+}
