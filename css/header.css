@@ -424,7 +424,8 @@
     line-height: 1.7;
     text-align: left;
     position: relative;
-    max-width: 100%;    
+    max-width: 100%; 
+    color: var(--text-color-lightest);   
     }
 }
 
@@ -436,7 +437,8 @@
     line-height: 1.7;
     text-align: left;
     position: relative;
-    max-width: 100%;    
+    max-width: 100%;  
+    color: var(--text-color-lightest);  
     }
 }
 
