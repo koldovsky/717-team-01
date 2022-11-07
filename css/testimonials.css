@@ -11,7 +11,7 @@ Format for testimonials block
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .testimonials__header {
@@ -32,9 +32,9 @@ Format for testimonials block
     margin-right: auto;
 }
 
-#testimonials__carousel {
+.testimonials__carousel {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .carousel__person-img {
