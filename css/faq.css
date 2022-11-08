@@ -96,7 +96,7 @@
   font-weight: 700;
   font-size: 17px;
   font-family: "Roboto", sans-serif;
-  text-decoration-color: var(--text-color-lightest);
+  color: var(--text-color-lightest);
   padding-left: 2px;
   background-color: var(--background-color);
 }
@@ -125,9 +125,9 @@
 }
 
 .accordion-button:not(.collapsed) {
-  border-color: white;
+  border-color: #232428;
   background-color: #232428;
-  text-decoration-color: var(--text-color-lightest);
+  color: var(--text-color-lightest);
 }
 
 .accordion-flush .accordion-item .accordion-button,
@@ -151,8 +151,8 @@
 
 .accordion {
   --bs-accordion-btn-focus-border-color: white;
-  --bs-accordion-active-color: black;
-  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-active-color: rgba(255, 255, 255, 0.75);
+  --bs-accordion-border-color:#232428 ;
 }
 .faq-img{
   width: 50%;
