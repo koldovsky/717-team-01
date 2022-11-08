@@ -1,7 +1,7 @@
 .faq__container {
-  max-width: 1200px;
-  min-width: 320px;
-  margin: 0 auto;
+  max-width: 1200px; /* MOVE TO COMMON */
+  min-width: 320px; /* MOVE TO COMMON */
+  margin: 0 auto;/* MOVE TO COMMON */
   padding: 0 15px;
 }
 .faq {
@@ -113,7 +113,10 @@
   padding-left: 10px;
 }
 .faq__img-container{
-  float: right;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
 } 
 @media (min-width: 768px) {
   .faq-container {
@@ -152,5 +155,5 @@
   --bs-accordion-border-color:#232428 ;
 }
 .faq-img{
-  width: 50%;
+  width: 100%;
 }
