@@ -93,7 +93,7 @@
 
 .accordion-button {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 17px;
   
   font-family: "Roboto", sans-serif;
   text-decoration-color: var(--main-text-color);
@@ -124,8 +124,8 @@
 }
 
 .accordion-button:not(.collapsed) {
-  border-color: var(--text-color-light);
-  background-color: var(--background-color);
+  border-color: var(--bs-accordion-btn-focus-border-color);
+  background-color: #232428;
   text-decoration-color: var(--bs-accordion-active-color);
 }
 
@@ -138,21 +138,20 @@
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
   border-top-right-radius: var(--bs-accordion-inner-border-radius);
 }
-
 .accordion-item {
   border-top-left-radius: var(--bs-accordion-inner-border-radius);
   border-top-right-radius: var(--bs-accordion-inner-border-radius);
 }
 
 .accordion-button:focus {
-  border-color: var(--text-color-light);
-  text-decoration-color: var(--text-color-light);
+  border-color: #232428;
+  text-decoration-color: var(--header-text-color);
 }
 
 .accordion {
-  --bs-accordion-btn-focus-border-color: var(--background-color);
-  --bs-accordion-active-color: var(--text-color-light)
-  --bs-accordion-border-color: var(--text-color-light);
+  --bs-accordion-btn-focus-border-color: white;
+  --bs-accordion-active-color: black;
+  --bs-accordion-border-color: var(--bs-border-color);
 }
 .faq-img{
   width: 50%;
