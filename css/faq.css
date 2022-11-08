@@ -1,5 +1,5 @@
 .faq__container {
-  max-width: 1170px;
+  max-width: 1200px;
   min-width: 320px;
   margin: 0 auto;
   padding: 0 15px;
@@ -113,10 +113,7 @@
   padding-left: 10px;
 }
 .faq__img-container{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
+  float: right;
 } 
 @media (min-width: 768px) {
   .faq-container {
@@ -150,7 +147,7 @@
 }
 
 .accordion {
-  --bs-accordion-btn-focus-border-color: white;
+  --bs-accordion-btn-focus-border-color:#232428 ;
   --bs-accordion-active-color: rgba(255, 255, 255, 0.75);
   --bs-accordion-border-color:#232428 ;
 }
