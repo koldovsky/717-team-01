@@ -111,12 +111,6 @@
   text-align: left;
   justify-content: center;
   padding-left: 10px;
-}
-.faq__img-container{
-  padding-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 50px;
 } 
 @media (min-width: 768px) {
   .faq-container {
@@ -155,5 +149,9 @@
   --bs-accordion-border-color:#232428 ;
 }
 .faq-img{
-  width: 100%;
+  margin: 0%;
+  display: block;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  position: relative;
 }
