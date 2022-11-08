@@ -52,6 +52,16 @@
     font-size: 34px;
     }
 
+    @media (max-width: 768px) {
+        .three-steps { 
+          flex-direction: column;
+        }
+
+        .three-steps__step {
+            margin-bottom: 20px;
+        }
+      }
+
 @media (min-width: 768px) {
     .about_us__red-line {
         padding-left: 15px;
@@ -67,6 +77,7 @@
     .three-steps {
         padding-left: 40px;
         padding-right: 40px;
+        flex-direction: row;
         }
      .about-us__subtitle {
         font-size: 39px;
