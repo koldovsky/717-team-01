@@ -124,8 +124,8 @@
 }
 
 .accordion-button:not(.collapsed) {
-  border-color: var(--bs-accordion-btn-focus-border-color);
-  background-color: white;
+  border-color: var(--text-color-light);
+  background-color: var(--background-color);
   text-decoration-color: var(--bs-accordion-active-color);
 }
 
@@ -145,14 +145,14 @@
 }
 
 .accordion-button:focus {
-  border-color: white;
-  text-decoration-color: var(--header-text-color);
+  border-color: var(--text-color-light);
+  text-decoration-color: var(--text-color-light);
 }
 
 .accordion {
-  --bs-accordion-btn-focus-border-color: white;
-  --bs-accordion-active-color: black;
-  --bs-accordion-border-color: var(--bs-border-color);
+  --bs-accordion-btn-focus-border-color: var(--background-color);
+  --bs-accordion-active-color: var(--text-color-light)
+  --bs-accordion-border-color: var(--text-color-light);
 }
 .faq-img{
   width: 50%;
