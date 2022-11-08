@@ -2,20 +2,24 @@
 Format for testimonials block
 */
 #testimonials {
+    background: url(../img/testimonials-carousel/background-testimonials.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonials__container {
+    margin-left: auto;
+    margin-right: auto;
     color: var(--main-text-color);
     text-align: center;
     max-width: 1000px;
     min-width: 280px;
-    margin: auto;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .testimonials__header {
-    padding: 0px 15px 0px 15px;
+    padding: 50px 15px 0px 15px;
 }
 
 .testimonials__header__subtitle {
@@ -34,7 +38,7 @@ Format for testimonials block
 
 .testimonials__carousel {
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .carousel__person-img {
@@ -81,8 +85,6 @@ Format for testimonials block
 .testimonials__carousel__button-next {
     cursor: pointer;
     position: absolute;
-    /*  margin-top: 22px;*/
-    /*  padding: 16;*/
     line-height: 46px;
     box-sizing: border-box;
     width: 46px;
@@ -104,4 +106,25 @@ Format for testimonials block
 .testimonials__carousel__button-prev:hover,
 .testimonials__carousel__button-next:hover {
     background-color: rgba(0, 0, 0, 0.1);
+}
+
+.pointTestimonials {
+    padding: 0px 0px 50px 0px;
+}
+
+.dotTestimonials {
+    cursor: pointer;
+    text-align: center;
+    height: 13px;
+    width: 13px;
+    margin: 5px;
+    background-color: #bdf;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.active,
+.dotTestimonials:hover {
+    background-color: var(--main-input-color);
 }
