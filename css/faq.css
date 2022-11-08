@@ -89,15 +89,16 @@
   font-weight: 700;
   font-size: 24px;
   margin-right: 40px;
+  color: var(--text-color-lightest);
 }
 
 .accordion-button {
   font-weight: 700;
   font-size: 17px;
-  
   font-family: "Roboto", sans-serif;
-  text-decoration-color: var(--main-text-color);
+  text-decoration-color: var(--text-color-lightest);
   padding-left: 2px;
+  background-color: var(--background-color);
 }
 
 .accordion-body {
@@ -124,9 +125,9 @@
 }
 
 .accordion-button:not(.collapsed) {
-  border-color: var(--bs-accordion-btn-focus-border-color);
+  border-color: white;
   background-color: #232428;
-  text-decoration-color: var(--bs-accordion-active-color);
+  text-decoration-color: var(--text-color-lightest);
 }
 
 .accordion-flush .accordion-item .accordion-button,
@@ -145,7 +146,7 @@
 
 .accordion-button:focus {
   border-color: #232428;
-  text-decoration-color: var(--header-text-color);
+  text-decoration-color: var(--text-color-lightest);
 }
 
 .accordion {
