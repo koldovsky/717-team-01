@@ -75,6 +75,12 @@
   padding-left: 15px;
   line-height: 28.9px;
 }
+.faq-img{
+  margin: 0%;
+  display: block;
+  position: relative;
+  float: right;
+}
 .accordion-item {
   position: relative;
   width: 50%;
@@ -147,11 +153,4 @@
   --bs-accordion-btn-focus-border-color:#232428 ;
   --bs-accordion-active-color: rgba(255, 255, 255, 0.75);
   --bs-accordion-border-color:#232428 ;
-}
-.faq-img{
-  margin: 0%;
-  display: block;
-  padding-top: 90px;
-  padding-bottom: 90px;
-  position: relative;
 }
